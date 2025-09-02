@@ -1,6 +1,6 @@
 {
   "name": "@pittaofficial/pitta-icon-assets",
-  "version": "0.1.27",
+  "version": "0.1.28",
   "description": "Pitta Icon Assets - 249 React SVG Icon Components with AI-friendly categorization. Includes user, action, navigation, media, cloud, settings, and dashboard icons.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
