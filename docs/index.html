@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Platform Icon Library - 아이콘 갤러리</title>
+    <title>Pitta Icon Assets - 아이콘 갤러리</title>
     <style>
         * {
             margin: 0;
@@ -280,7 +280,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎨 Platform Icon Library</h1>
+            <h1>🎨 Pitta Icon Assets</h1>
             <p>249개 React SVG 아이콘 컴포넌트 갤러리</p>
         </div>
         
@@ -305,8 +305,8 @@
         
         <div class="installation">
             <h2>📦 설치 및 사용법</h2>
-            <div class="code-block">npm install platform-icon-library</div>
-            <div class="code-block">import { AddIcon, SearchIcon } from 'platform-icon-library';</div>
+                            <div class="code-block">npm install @pittaofficial/pitta-icon-assets</div>
+                <div class="code-block">import { AddIcon, SearchIcon } from '@pittaofficial/pitta-icon-assets';</div>
         </div>
         
         <div class="metadata-info">
@@ -361,9 +361,9 @@
         </div>
         
         <div class="footer">
-            <p>Platform Icon Library v0.1.19 | MIT License</p>
-            <p>GitHub: <a href="https://github.com/kimdh-pittasoft/platform-i" target="_blank">kimdh-pittasoft/platform-i</a></p>
-            <p>NPM: <a href="https://www.npmjs.com/package/platform-icon-library" target="_blank">platform-icon-library</a></p>
+            <p>Pitta Icon Assets v0.1.25 | MIT License</p>
+            <p>GitHub: <a href="https://github.com/pittaofficial/pitta-icon-assets" target="_blank">pittaofficial/pitta-icon-assets</a></p>
+            <p>NPM: <a href="https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets" target="_blank">@pittaofficial/pitta-icon-assets</a></p>
         </div>
     </div>
 
@@ -537,7 +537,7 @@
 
         // import 문 복사
         function copyImport(iconName) {
-            const importText = `import { ${iconName} } from 'platform-icon-library';`;
+            const importText = `import { ${iconName} } from '@pittaofficial/pitta-icon-assets';`;
             navigator.clipboard.writeText(importText).then(() => {
                 alert(`${iconName} import 문이 클립보드에 복사되었습니다!`);
             });

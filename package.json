@@ -1,7 +1,7 @@
 {
-  "name": "platform-icon-library",
-  "version": "0.1.23",
-  "description": "Platform Icon Library - 249 React SVG Icon Components with AI-friendly categorization. Includes user, action, navigation, media, cloud, settings, and dashboard icons.",
+  "name": "@pittaofficial/pitta-icon-assets",
+  "version": "0.1.25",
+  "description": "Pitta Icon Assets - 249 React SVG Icon Components with AI-friendly categorization. Includes user, action, navigation, media, cloud, settings, and dashboard icons.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimdh-pittasoft/platform-i.git"
+    "url": "git+https://github.com/pittaofficial/pitta-icon-assets.git"
   },
   "scripts": {
     "build": "npm run generate-exports && npm run generate-metadata && rollup -c",

@@ -1,17 +1,17 @@
-# Platform Icon Library
+# Pitta Icon Assets
 
 249개의 React SVG 아이콘 컴포넌트 라이브러리입니다. AI 친화적 카테고리 분류와 메타데이터를 제공합니다.
 
 ## 🚀 설치
 
 ```bash
-npm install platform-icon-library
+npm install @pittaofficial/pitta-icon-assets
 ```
 
 ## 📦 사용법
 
 ```jsx
-import { AddIcon, SearchIcon, SettingsIcon } from 'platform-icon-library';
+import { AddIcon, SearchIcon, SettingsIcon } from '@pittaofficial/pitta-icon-assets';
 
 function App() {
   return (
@@ -147,9 +147,9 @@ function App() {
 
 ## 🔗 링크
 
-- **GitHub**: [https://github.com/kimdh-pittasoft/platform-icon-library](https://github.com/kimdh-pittasoft/platform-icon-library)
-- **아이콘 갤러리**: [https://kimdh-pittasoft.github.io/platform-icon-library/](https://kimdh-pittasoft.github.io/platform-icon-library/)
-- **NPM 패키지**: [https://www.npmjs.com/package/platform-icon-library](https://www.npmjs.com/package/platform-icon-library)
+- **GitHub**: [https://github.com/pittaofficial/pitta-icon-assets](https://github.com/pittaofficial/pitta-icon-assets)
+- **아이콘 갤러리**: [https://pittaofficial.github.io/pitta-icon-assets/](https://pittaofficial.github.io/pitta-icon-assets/)
+- **NPM 패키지**: [https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets](https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets)
 
 ## 🛠️ 개발
 
