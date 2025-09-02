@@ -29,16 +29,57 @@ function extractSVGFromIcon(iconName) {
     if (svgMatch) {
       let svg = svgMatch[0];
       
-      // React props 제거하고 순수 SVG로 변환
+      // React props를 실제 색상 값으로 변환 (제거하지 않음)
       svg = svg.replace(/\{\.\.\.svgProps\}/g, '');
+      svg = svg.replace(/\{\.\.\.props\}/g, '');
       svg = svg.replace(/\{htmlColor\}/g, 'currentColor');
       svg = svg.replace(/\{backgroundColor\}/g, '#2ea8e5');
       svg = svg.replace(/\{iconColor\}/g, '#fff');
       svg = svg.replace(/\{accentColor\}/g, '#0095e0');
       
-      // width, height를 48px로 설정
-      svg = svg.replace(/width="[^"]*"/g, 'width="48"');
-      svg = svg.replace(/height="[^"]*"/g, 'height="48"');
+      // props.속성 || "기본값" 패턴을 실제 값으로 변환 (더 정확한 패턴)
+      svg = svg.replace(/\{props\.backgroundColor\|\|"#2ea8e5"\}/g, '#2ea8e5');
+      svg = svg.replace(/\{props\.htmlColor\|\|"#0095e0"\}/g, 'currentColor');
+      svg = svg.replace(/\{props\.iconColor\|\|"#fff"\}/g, '#fff');
+      svg = svg.replace(/\{props\.accentColor\|\|"#0095e0"\}/g, '#0095e0');
+      
+      // props.속성 패턴을 실제 값으로 변환
+      svg = svg.replace(/\{props\.backgroundColor\}/g, '#2ea8e5');
+      svg = svg.replace(/\{props\.htmlColor\}/g, 'currentColor');
+      svg = svg.replace(/\{props\.iconColor\}/g, '#fff');
+      svg = svg.replace(/\{props\.accentColor\}/g, '#0095e0');
+      
+      // props?.속성 패턴을 실제 값으로 변환
+      svg = svg.replace(/\{props\?\.backgroundColor\}/g, '#2ea8e5');
+      svg = svg.replace(/\{props\?\.htmlColor\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.iconColor\}/g, '#fff');
+      svg = svg.replace(/\{props\?\.accentColor\}/g, '#0095e0');
+      
+      // 기타 props 패턴들
+      svg = svg.replace(/\{props\.color\|\|"[^"]*"\}/g, 'currentColor');
+      svg = svg.replace(/\{props\.color\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.color\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.color\|\|"[^"]*"\}/g, 'currentColor');
+      
+      // stroke 관련 패턴들
+      svg = svg.replace(/\{props\.stroke\|\|"[^"]*"\}/g, 'currentColor');
+      svg = svg.replace(/\{props\.stroke\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.stroke\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.stroke\|\|"[^"]*"\}/g, 'currentColor');
+      
+      // fill 관련 패턴들
+      svg = svg.replace(/\{props\.fill\|\|"[^"]*"\}/g, 'currentColor');
+      svg = svg.replace(/\{props\.fill\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.fill\}/g, 'currentColor');
+      svg = svg.replace(/\{props\?\.fill\|\|"[^"]*"\}/g, 'currentColor');
+      
+      // width, height를 48px로 설정 (메인 SVG 태그만)
+      svg = svg.replace(/<svg[^>]*width="[^"]*"[^>]*>/g, (match) => {
+        return match.replace(/width="[^"]*"/g, 'width="48"');
+      });
+      svg = svg.replace(/<svg[^>]*height="[^"]*"[^>]*>/g, (match) => {
+        return match.replace(/height="[^"]*"/g, 'height="48"');
+      });
       
       return svg;
     }

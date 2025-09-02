@@ -3,8 +3,8 @@ import * as React from "react";
 export const BlackvueLogoOutlined = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
-      width={160}
-      height={30}
+      width="1em"
+      height="1em"
       viewBox="0 0 160 30"
       fill="none"
       {...props}
