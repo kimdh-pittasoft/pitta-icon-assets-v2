@@ -28,6 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/kimdh-pittasoft/pitta-icon-assets.git"
   },
+  "homepage": "https://web-modules-alpha.blackvuecloud.com/storybook/index.html",
   "scripts": {
     "build": "npm run generate-exports && npm run generate-metadata && npm run extract-svgs && rollup -c",
     "generate-exports": "node scripts/generate-exports.js",
