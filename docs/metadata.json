@@ -33,7 +33,7 @@
         "logout"
       ],
       "description": "AccountCircleIcon 아이콘 - user 카테고리",
-      "usage": "import { AccountCircleIcon } from 'platform-icon-library';"
+      "usage": "import { AccountCircleIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AddBoxIcon": {
       "name": "AddBoxIcon",
@@ -54,7 +54,7 @@
         "new"
       ],
       "description": "AddBoxIcon 아이콘 - action 카테고리",
-      "usage": "import { AddBoxIcon } from 'platform-icon-library';"
+      "usage": "import { AddBoxIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AddCircleIcon": {
       "name": "AddCircleIcon",
@@ -75,7 +75,7 @@
         "new"
       ],
       "description": "AddCircleIcon 아이콘 - action 카테고리",
-      "usage": "import { AddCircleIcon } from 'platform-icon-library';"
+      "usage": "import { AddCircleIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AddIcon": {
       "name": "AddIcon",
@@ -95,7 +95,7 @@
         "new"
       ],
       "description": "AddIcon 아이콘 - action 카테고리",
-      "usage": "import { AddIcon } from 'platform-icon-library';"
+      "usage": "import { AddIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminChart": {
       "name": "AdminChart",
@@ -110,7 +110,7 @@
         "logout"
       ],
       "description": "AdminChart 아이콘 - user 카테고리",
-      "usage": "import { AdminChart } from 'platform-icon-library';"
+      "usage": "import { AdminChart } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminDefaultProfile": {
       "name": "AdminDefaultProfile",
@@ -125,7 +125,7 @@
         "logout"
       ],
       "description": "AdminDefaultProfile 아이콘 - user 카테고리",
-      "usage": "import { AdminDefaultProfile } from 'platform-icon-library';"
+      "usage": "import { AdminDefaultProfile } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminHomeIcon": {
       "name": "AdminHomeIcon",
@@ -142,7 +142,7 @@
         "logout"
       ],
       "description": "AdminHomeIcon 아이콘 - user 카테고리",
-      "usage": "import { AdminHomeIcon } from 'platform-icon-library';"
+      "usage": "import { AdminHomeIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminHoverProfile": {
       "name": "AdminHoverProfile",
@@ -157,7 +157,7 @@
         "logout"
       ],
       "description": "AdminHoverProfile 아이콘 - user 카테고리",
-      "usage": "import { AdminHoverProfile } from 'platform-icon-library';"
+      "usage": "import { AdminHoverProfile } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminLogout": {
       "name": "AdminLogout",
@@ -172,7 +172,7 @@
         "logout"
       ],
       "description": "AdminLogout 아이콘 - user 카테고리",
-      "usage": "import { AdminLogout } from 'platform-icon-library';"
+      "usage": "import { AdminLogout } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminPWChange": {
       "name": "AdminPWChange",
@@ -187,7 +187,7 @@
         "logout"
       ],
       "description": "AdminPWChange 아이콘 - user 카테고리",
-      "usage": "import { AdminPWChange } from 'platform-icon-library';"
+      "usage": "import { AdminPWChange } from '@pittaofficial/pitta-icon-assets';"
     },
     "AdminPerson": {
       "name": "AdminPerson",
@@ -202,7 +202,7 @@
         "logout"
       ],
       "description": "AdminPerson 아이콘 - user 카테고리",
-      "usage": "import { AdminPerson } from 'platform-icon-library';"
+      "usage": "import { AdminPerson } from '@pittaofficial/pitta-icon-assets';"
     },
     "AllInclusiveBoxIcon": {
       "name": "AllInclusiveBoxIcon",
@@ -216,7 +216,7 @@
         "general"
       ],
       "description": "AllInclusiveBoxIcon 아이콘 - other 카테고리",
-      "usage": "import { AllInclusiveBoxIcon } from 'platform-icon-library';"
+      "usage": "import { AllInclusiveBoxIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AllInclusiveIcon": {
       "name": "AllInclusiveIcon",
@@ -230,7 +230,7 @@
         "general"
       ],
       "description": "AllInclusiveIcon 아이콘 - other 카테고리",
-      "usage": "import { AllInclusiveIcon } from 'platform-icon-library';"
+      "usage": "import { AllInclusiveIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AmexCard": {
       "name": "AmexCard",
@@ -244,7 +244,7 @@
         "mastercard"
       ],
       "description": "AmexCard 아이콘 - payment 카테고리",
-      "usage": "import { AmexCard } from 'platform-icon-library';"
+      "usage": "import { AmexCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "AppStoreBadge": {
       "name": "AppStoreBadge",
@@ -256,7 +256,7 @@
         "general"
       ],
       "description": "AppStoreBadge 아이콘 - other 카테고리",
-      "usage": "import { AppStoreBadge } from 'platform-icon-library';"
+      "usage": "import { AppStoreBadge } from '@pittaofficial/pitta-icon-assets';"
     },
     "ArrowDropDownIcon": {
       "name": "ArrowDropDownIcon",
@@ -275,7 +275,7 @@
         "navigation"
       ],
       "description": "ArrowDropDownIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ArrowDropDownIcon } from 'platform-icon-library';"
+      "usage": "import { ArrowDropDownIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ArrowDropUpIcon": {
       "name": "ArrowDropUpIcon",
@@ -294,7 +294,7 @@
         "navigation"
       ],
       "description": "ArrowDropUpIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ArrowDropUpIcon } from 'platform-icon-library';"
+      "usage": "import { ArrowDropUpIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ArrowForwardIcon": {
       "name": "ArrowForwardIcon",
@@ -313,7 +313,7 @@
         "navigation"
       ],
       "description": "ArrowForwardIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ArrowForwardIcon } from 'platform-icon-library';"
+      "usage": "import { ArrowForwardIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ArrowLeftIcon": {
       "name": "ArrowLeftIcon",
@@ -332,7 +332,7 @@
         "navigation"
       ],
       "description": "ArrowLeftIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ArrowLeftIcon } from 'platform-icon-library';"
+      "usage": "import { ArrowLeftIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ArrowRightIcon": {
       "name": "ArrowRightIcon",
@@ -351,7 +351,7 @@
         "navigation"
       ],
       "description": "ArrowRightIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ArrowRightIcon } from 'platform-icon-library';"
+      "usage": "import { ArrowRightIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AspectRatioIcon": {
       "name": "AspectRatioIcon",
@@ -365,7 +365,7 @@
         "general"
       ],
       "description": "AspectRatioIcon 아이콘 - other 카테고리",
-      "usage": "import { AspectRatioIcon } from 'platform-icon-library';"
+      "usage": "import { AspectRatioIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "AssignmentSolidIcon": {
       "name": "AssignmentSolidIcon",
@@ -379,7 +379,7 @@
         "general"
       ],
       "description": "AssignmentSolidIcon 아이콘 - other 카테고리",
-      "usage": "import { AssignmentSolidIcon } from 'platform-icon-library';"
+      "usage": "import { AssignmentSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "BackwardArrow": {
       "name": "BackwardArrow",
@@ -396,7 +396,7 @@
         "navigation"
       ],
       "description": "BackwardArrow 아이콘 - navigation 카테고리",
-      "usage": "import { BackwardArrow } from 'platform-icon-library';"
+      "usage": "import { BackwardArrow } from '@pittaofficial/pitta-icon-assets';"
     },
     "Battery0Icon": {
       "name": "Battery0Icon",
@@ -412,7 +412,7 @@
         "microsd"
       ],
       "description": "Battery0Icon 아이콘 - device 카테고리",
-      "usage": "import { Battery0Icon } from 'platform-icon-library';"
+      "usage": "import { Battery0Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Battery100Icon": {
       "name": "Battery100Icon",
@@ -428,7 +428,7 @@
         "microsd"
       ],
       "description": "Battery100Icon 아이콘 - device 카테고리",
-      "usage": "import { Battery100Icon } from 'platform-icon-library';"
+      "usage": "import { Battery100Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Battery25Icon": {
       "name": "Battery25Icon",
@@ -444,7 +444,7 @@
         "microsd"
       ],
       "description": "Battery25Icon 아이콘 - device 카테고리",
-      "usage": "import { Battery25Icon } from 'platform-icon-library';"
+      "usage": "import { Battery25Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Battery50Icon": {
       "name": "Battery50Icon",
@@ -460,7 +460,7 @@
         "microsd"
       ],
       "description": "Battery50Icon 아이콘 - device 카테고리",
-      "usage": "import { Battery50Icon } from 'platform-icon-library';"
+      "usage": "import { Battery50Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Battery75Icon": {
       "name": "Battery75Icon",
@@ -476,7 +476,7 @@
         "microsd"
       ],
       "description": "Battery75Icon 아이콘 - device 카테고리",
-      "usage": "import { Battery75Icon } from 'platform-icon-library';"
+      "usage": "import { Battery75Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "BatteryNoInfoIcon": {
       "name": "BatteryNoInfoIcon",
@@ -493,7 +493,7 @@
         "loading"
       ],
       "description": "BatteryNoInfoIcon 아이콘 - status 카테고리",
-      "usage": "import { BatteryNoInfoIcon } from 'platform-icon-library';"
+      "usage": "import { BatteryNoInfoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "BlackvueLogoOutlined": {
       "name": "BlackvueLogoOutlined",
@@ -505,7 +505,7 @@
         "general"
       ],
       "description": "BlackvueLogoOutlined 아이콘 - other 카테고리",
-      "usage": "import { BlackvueLogoOutlined } from 'platform-icon-library';"
+      "usage": "import { BlackvueLogoOutlined } from '@pittaofficial/pitta-icon-assets';"
     },
     "Calendar": {
       "name": "Calendar",
@@ -519,7 +519,7 @@
         "date"
       ],
       "description": "Calendar 아이콘 - time 카테고리",
-      "usage": "import { Calendar } from 'platform-icon-library';"
+      "usage": "import { Calendar } from '@pittaofficial/pitta-icon-assets';"
     },
     "CalendarMofiedIcon": {
       "name": "CalendarMofiedIcon",
@@ -535,7 +535,7 @@
         "date"
       ],
       "description": "CalendarMofiedIcon 아이콘 - time 카테고리",
-      "usage": "import { CalendarMofiedIcon } from 'platform-icon-library';"
+      "usage": "import { CalendarMofiedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CallIcon": {
       "name": "CallIcon",
@@ -550,7 +550,7 @@
         "email"
       ],
       "description": "CallIcon 아이콘 - communication 카테고리",
-      "usage": "import { CallIcon } from 'platform-icon-library';"
+      "usage": "import { CallIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CameraCountHighlight": {
       "name": "CameraCountHighlight",
@@ -565,7 +565,7 @@
         "camera"
       ],
       "description": "CameraCountHighlight 아이콘 - media 카테고리",
-      "usage": "import { CameraCountHighlight } from 'platform-icon-library';"
+      "usage": "import { CameraCountHighlight } from '@pittaofficial/pitta-icon-assets';"
     },
     "CameraSettings": {
       "name": "CameraSettings",
@@ -580,7 +580,7 @@
         "camera"
       ],
       "description": "CameraSettings 아이콘 - media 카테고리",
-      "usage": "import { CameraSettings } from 'platform-icon-library';"
+      "usage": "import { CameraSettings } from '@pittaofficial/pitta-icon-assets';"
     },
     "CancelIcon": {
       "name": "CancelIcon",
@@ -594,7 +594,7 @@
         "general"
       ],
       "description": "CancelIcon 아이콘 - other 카테고리",
-      "usage": "import { CancelIcon } from 'platform-icon-library';"
+      "usage": "import { CancelIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CellularLite": {
       "name": "CellularLite",
@@ -608,7 +608,7 @@
         "microsd"
       ],
       "description": "CellularLite 아이콘 - device 카테고리",
-      "usage": "import { CellularLite } from 'platform-icon-library';"
+      "usage": "import { CellularLite } from '@pittaofficial/pitta-icon-assets';"
     },
     "CellularStrong": {
       "name": "CellularStrong",
@@ -622,7 +622,7 @@
         "microsd"
       ],
       "description": "CellularStrong 아이콘 - device 카테고리",
-      "usage": "import { CellularStrong } from 'platform-icon-library';"
+      "usage": "import { CellularStrong } from '@pittaofficial/pitta-icon-assets';"
     },
     "CellularWeak": {
       "name": "CellularWeak",
@@ -636,7 +636,7 @@
         "microsd"
       ],
       "description": "CellularWeak 아이콘 - device 카테고리",
-      "usage": "import { CellularWeak } from 'platform-icon-library';"
+      "usage": "import { CellularWeak } from '@pittaofficial/pitta-icon-assets';"
     },
     "ChatbotIcon": {
       "name": "ChatbotIcon",
@@ -652,7 +652,7 @@
         "email"
       ],
       "description": "ChatbotIcon 아이콘 - communication 카테고리",
-      "usage": "import { ChatbotIcon } from 'platform-icon-library';"
+      "usage": "import { ChatbotIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CheckCircle": {
       "name": "CheckCircle",
@@ -669,7 +669,7 @@
         "complete"
       ],
       "description": "CheckCircle 아이콘 - status 카테고리",
-      "usage": "import { CheckCircle } from 'platform-icon-library';"
+      "usage": "import { CheckCircle } from '@pittaofficial/pitta-icon-assets';"
     },
     "CheckIcon": {
       "name": "CheckIcon",
@@ -687,7 +687,7 @@
         "complete"
       ],
       "description": "CheckIcon 아이콘 - status 카테고리",
-      "usage": "import { CheckIcon } from 'platform-icon-library';"
+      "usage": "import { CheckIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ChevronBackwardIcon": {
       "name": "ChevronBackwardIcon",
@@ -704,7 +704,7 @@
         "forward"
       ],
       "description": "ChevronBackwardIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ChevronBackwardIcon } from 'platform-icon-library';"
+      "usage": "import { ChevronBackwardIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ChevronDownIcon": {
       "name": "ChevronDownIcon",
@@ -721,7 +721,7 @@
         "forward"
       ],
       "description": "ChevronDownIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ChevronDownIcon } from 'platform-icon-library';"
+      "usage": "import { ChevronDownIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ChevronForwardIcon": {
       "name": "ChevronForwardIcon",
@@ -738,7 +738,7 @@
         "forward"
       ],
       "description": "ChevronForwardIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ChevronForwardIcon } from 'platform-icon-library';"
+      "usage": "import { ChevronForwardIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ChevronUpIcon": {
       "name": "ChevronUpIcon",
@@ -755,7 +755,7 @@
         "forward"
       ],
       "description": "ChevronUpIcon 아이콘 - navigation 카테고리",
-      "usage": "import { ChevronUpIcon } from 'platform-icon-library';"
+      "usage": "import { ChevronUpIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CircleIcon": {
       "name": "CircleIcon",
@@ -769,7 +769,7 @@
         "general"
       ],
       "description": "CircleIcon 아이콘 - other 카테고리",
-      "usage": "import { CircleIcon } from 'platform-icon-library';"
+      "usage": "import { CircleIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Cloud": {
       "name": "Cloud",
@@ -781,7 +781,7 @@
         "general"
       ],
       "description": "Cloud 아이콘 - other 카테고리",
-      "usage": "import { Cloud } from 'platform-icon-library';"
+      "usage": "import { Cloud } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudCamera": {
       "name": "CloudCamera",
@@ -796,7 +796,7 @@
         "camera"
       ],
       "description": "CloudCamera 아이콘 - media 카테고리",
-      "usage": "import { CloudCamera } from 'platform-icon-library';"
+      "usage": "import { CloudCamera } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudConfig1Icon": {
       "name": "CloudConfig1Icon",
@@ -812,7 +812,7 @@
         "firmware"
       ],
       "description": "CloudConfig1Icon 아이콘 - system 카테고리",
-      "usage": "import { CloudConfig1Icon } from 'platform-icon-library';"
+      "usage": "import { CloudConfig1Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudConfig2Icon": {
       "name": "CloudConfig2Icon",
@@ -828,7 +828,7 @@
         "firmware"
       ],
       "description": "CloudConfig2Icon 아이콘 - system 카테고리",
-      "usage": "import { CloudConfig2Icon } from 'platform-icon-library';"
+      "usage": "import { CloudConfig2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudIcon": {
       "name": "CloudIcon",
@@ -842,7 +842,7 @@
         "general"
       ],
       "description": "CloudIcon 아이콘 - other 카테고리",
-      "usage": "import { CloudIcon } from 'platform-icon-library';"
+      "usage": "import { CloudIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudOff2Icon": {
       "name": "CloudOff2Icon",
@@ -856,7 +856,7 @@
         "general"
       ],
       "description": "CloudOff2Icon 아이콘 - other 카테고리",
-      "usage": "import { CloudOff2Icon } from 'platform-icon-library';"
+      "usage": "import { CloudOff2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudOffIcon": {
       "name": "CloudOffIcon",
@@ -870,7 +870,7 @@
         "general"
       ],
       "description": "CloudOffIcon 아이콘 - other 카테고리",
-      "usage": "import { CloudOffIcon } from 'platform-icon-library';"
+      "usage": "import { CloudOffIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudOutline": {
       "name": "CloudOutline",
@@ -882,7 +882,7 @@
         "general"
       ],
       "description": "CloudOutline 아이콘 - other 카테고리",
-      "usage": "import { CloudOutline } from 'platform-icon-library';"
+      "usage": "import { CloudOutline } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudSolidIcon": {
       "name": "CloudSolidIcon",
@@ -896,7 +896,7 @@
         "general"
       ],
       "description": "CloudSolidIcon 아이콘 - other 카테고리",
-      "usage": "import { CloudSolidIcon } from 'platform-icon-library';"
+      "usage": "import { CloudSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudSync": {
       "name": "CloudSync",
@@ -908,7 +908,7 @@
         "general"
       ],
       "description": "CloudSync 아이콘 - other 카테고리",
-      "usage": "import { CloudSync } from 'platform-icon-library';"
+      "usage": "import { CloudSync } from '@pittaofficial/pitta-icon-assets';"
     },
     "CloudUploadIcon": {
       "name": "CloudUploadIcon",
@@ -926,7 +926,7 @@
         "search"
       ],
       "description": "CloudUploadIcon 아이콘 - action 카테고리",
-      "usage": "import { CloudUploadIcon } from 'platform-icon-library';"
+      "usage": "import { CloudUploadIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CollapseUpIcon": {
       "name": "CollapseUpIcon",
@@ -940,7 +940,7 @@
         "general"
       ],
       "description": "CollapseUpIcon 아이콘 - other 카테고리",
-      "usage": "import { CollapseUpIcon } from 'platform-icon-library';"
+      "usage": "import { CollapseUpIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "CollapseUpNewIcon": {
       "name": "CollapseUpNewIcon",
@@ -954,7 +954,7 @@
         "general"
       ],
       "description": "CollapseUpNewIcon 아이콘 - other 카테고리",
-      "usage": "import { CollapseUpNewIcon } from 'platform-icon-library';"
+      "usage": "import { CollapseUpNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ConnectLocallyIcon": {
       "name": "ConnectLocallyIcon",
@@ -970,7 +970,7 @@
         "email"
       ],
       "description": "ConnectLocallyIcon 아이콘 - communication 카테고리",
-      "usage": "import { ConnectLocallyIcon } from 'platform-icon-library';"
+      "usage": "import { ConnectLocallyIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ContactSupportIcon": {
       "name": "ContactSupportIcon",
@@ -984,7 +984,7 @@
         "general"
       ],
       "description": "ContactSupportIcon 아이콘 - other 카테고리",
-      "usage": "import { ContactSupportIcon } from 'platform-icon-library';"
+      "usage": "import { ContactSupportIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DMSIcon": {
       "name": "DMSIcon",
@@ -998,7 +998,7 @@
         "general"
       ],
       "description": "DMSIcon 아이콘 - other 카테고리",
-      "usage": "import { DMSIcon } from 'platform-icon-library';"
+      "usage": "import { DMSIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashCam": {
       "name": "DashCam",
@@ -1010,7 +1010,7 @@
         "general"
       ],
       "description": "DashCam 아이콘 - other 카테고리",
-      "usage": "import { DashCam } from 'platform-icon-library';"
+      "usage": "import { DashCam } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashCam2Icon": {
       "name": "DashCam2Icon",
@@ -1024,7 +1024,7 @@
         "general"
       ],
       "description": "DashCam2Icon 아이콘 - other 카테고리",
-      "usage": "import { DashCam2Icon } from 'platform-icon-library';"
+      "usage": "import { DashCam2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Dashcam3Icon": {
       "name": "Dashcam3Icon",
@@ -1038,7 +1038,7 @@
         "general"
       ],
       "description": "Dashcam3Icon 아이콘 - other 카테고리",
-      "usage": "import { Dashcam3Icon } from 'platform-icon-library';"
+      "usage": "import { Dashcam3Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamConnectivity": {
       "name": "DashcamConnectivity",
@@ -1050,7 +1050,7 @@
         "general"
       ],
       "description": "DashcamConnectivity 아이콘 - other 카테고리",
-      "usage": "import { DashcamConnectivity } from 'platform-icon-library';"
+      "usage": "import { DashcamConnectivity } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamEmptyIcon": {
       "name": "DashcamEmptyIcon",
@@ -1064,7 +1064,7 @@
         "general"
       ],
       "description": "DashcamEmptyIcon 아이콘 - other 카테고리",
-      "usage": "import { DashcamEmptyIcon } from 'platform-icon-library';"
+      "usage": "import { DashcamEmptyIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamInvalid": {
       "name": "DashcamInvalid",
@@ -1076,7 +1076,7 @@
         "general"
       ],
       "description": "DashcamInvalid 아이콘 - other 카테고리",
-      "usage": "import { DashcamInvalid } from 'platform-icon-library';"
+      "usage": "import { DashcamInvalid } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamLiteConnected": {
       "name": "DashcamLiteConnected",
@@ -1088,7 +1088,7 @@
         "general"
       ],
       "description": "DashcamLiteConnected 아이콘 - other 카테고리",
-      "usage": "import { DashcamLiteConnected } from 'platform-icon-library';"
+      "usage": "import { DashcamLiteConnected } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamLiteDisconnected": {
       "name": "DashcamLiteDisconnected",
@@ -1100,7 +1100,7 @@
         "general"
       ],
       "description": "DashcamLiteDisconnected 아이콘 - other 카테고리",
-      "usage": "import { DashcamLiteDisconnected } from 'platform-icon-library';"
+      "usage": "import { DashcamLiteDisconnected } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamParked": {
       "name": "DashcamParked",
@@ -1112,7 +1112,7 @@
         "general"
       ],
       "description": "DashcamParked 아이콘 - other 카테고리",
-      "usage": "import { DashcamParked } from 'platform-icon-library';"
+      "usage": "import { DashcamParked } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamPublic": {
       "name": "DashcamPublic",
@@ -1124,7 +1124,7 @@
         "general"
       ],
       "description": "DashcamPublic 아이콘 - other 카테고리",
-      "usage": "import { DashcamPublic } from 'platform-icon-library';"
+      "usage": "import { DashcamPublic } from '@pittaofficial/pitta-icon-assets';"
     },
     "DashcamSettings": {
       "name": "DashcamSettings",
@@ -1138,7 +1138,7 @@
         "firmware"
       ],
       "description": "DashcamSettings 아이콘 - system 카테고리",
-      "usage": "import { DashcamSettings } from 'platform-icon-library';"
+      "usage": "import { DashcamSettings } from '@pittaofficial/pitta-icon-assets';"
     },
     "DataRangeSolidIcon": {
       "name": "DataRangeSolidIcon",
@@ -1152,7 +1152,7 @@
         "general"
       ],
       "description": "DataRangeSolidIcon 아이콘 - other 카테고리",
-      "usage": "import { DataRangeSolidIcon } from 'platform-icon-library';"
+      "usage": "import { DataRangeSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DefaultUserBoxIcon": {
       "name": "DefaultUserBoxIcon",
@@ -1166,7 +1166,7 @@
         "general"
       ],
       "description": "DefaultUserBoxIcon 아이콘 - other 카테고리",
-      "usage": "import { DefaultUserBoxIcon } from 'platform-icon-library';"
+      "usage": "import { DefaultUserBoxIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DeleteIcon": {
       "name": "DeleteIcon",
@@ -1186,7 +1186,7 @@
         "bin"
       ],
       "description": "DeleteIcon 아이콘 - action 카테고리",
-      "usage": "import { DeleteIcon } from 'platform-icon-library';"
+      "usage": "import { DeleteIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DeleteOutLine": {
       "name": "DeleteOutLine",
@@ -1205,7 +1205,7 @@
         "bin"
       ],
       "description": "DeleteOutLine 아이콘 - action 카테고리",
-      "usage": "import { DeleteOutLine } from 'platform-icon-library';"
+      "usage": "import { DeleteOutLine } from '@pittaofficial/pitta-icon-assets';"
     },
     "DetectionIcon": {
       "name": "DetectionIcon",
@@ -1219,7 +1219,7 @@
         "general"
       ],
       "description": "DetectionIcon 아이콘 - other 카테고리",
-      "usage": "import { DetectionIcon } from 'platform-icon-library';"
+      "usage": "import { DetectionIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DinersCard": {
       "name": "DinersCard",
@@ -1233,7 +1233,7 @@
         "mastercard"
       ],
       "description": "DinersCard 아이콘 - payment 카테고리",
-      "usage": "import { DinersCard } from 'platform-icon-library';"
+      "usage": "import { DinersCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "DirectionMarker": {
       "name": "DirectionMarker",
@@ -1247,7 +1247,7 @@
         "marker"
       ],
       "description": "DirectionMarker 아이콘 - location 카테고리",
-      "usage": "import { DirectionMarker } from 'platform-icon-library';"
+      "usage": "import { DirectionMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "DiscoverCard": {
       "name": "DiscoverCard",
@@ -1261,7 +1261,7 @@
         "mastercard"
       ],
       "description": "DiscoverCard 아이콘 - payment 카테고리",
-      "usage": "import { DiscoverCard } from 'platform-icon-library';"
+      "usage": "import { DiscoverCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "DmsFotaIcon": {
       "name": "DmsFotaIcon",
@@ -1275,7 +1275,7 @@
         "general"
       ],
       "description": "DmsFotaIcon 아이콘 - other 카테고리",
-      "usage": "import { DmsFotaIcon } from 'platform-icon-library';"
+      "usage": "import { DmsFotaIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DmsFotaNewIcon": {
       "name": "DmsFotaNewIcon",
@@ -1289,7 +1289,7 @@
         "general"
       ],
       "description": "DmsFotaNewIcon 아이콘 - other 카테고리",
-      "usage": "import { DmsFotaNewIcon } from 'platform-icon-library';"
+      "usage": "import { DmsFotaNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DmsFrontFotaIcon": {
       "name": "DmsFrontFotaIcon",
@@ -1303,7 +1303,7 @@
         "general"
       ],
       "description": "DmsFrontFotaIcon 아이콘 - other 카테고리",
-      "usage": "import { DmsFrontFotaIcon } from 'platform-icon-library';"
+      "usage": "import { DmsFrontFotaIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "DmsFrontFotaNewIcon": {
       "name": "DmsFrontFotaNewIcon",
@@ -1317,7 +1317,7 @@
         "general"
       ],
       "description": "DmsFrontFotaNewIcon 아이콘 - other 카테고리",
-      "usage": "import { DmsFrontFotaNewIcon } from 'platform-icon-library';"
+      "usage": "import { DmsFrontFotaNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Download": {
       "name": "Download",
@@ -1333,7 +1333,7 @@
         "search"
       ],
       "description": "Download 아이콘 - action 카테고리",
-      "usage": "import { Download } from 'platform-icon-library';"
+      "usage": "import { Download } from '@pittaofficial/pitta-icon-assets';"
     },
     "DownloadedMedia": {
       "name": "DownloadedMedia",
@@ -1349,7 +1349,7 @@
         "search"
       ],
       "description": "DownloadedMedia 아이콘 - action 카테고리",
-      "usage": "import { DownloadedMedia } from 'platform-icon-library';"
+      "usage": "import { DownloadedMedia } from '@pittaofficial/pitta-icon-assets';"
     },
     "EditIcon": {
       "name": "EditIcon",
@@ -1366,7 +1366,7 @@
         "search"
       ],
       "description": "EditIcon 아이콘 - action 카테고리",
-      "usage": "import { EditIcon } from 'platform-icon-library';"
+      "usage": "import { EditIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ElectricBoltIcon": {
       "name": "ElectricBoltIcon",
@@ -1380,7 +1380,7 @@
         "general"
       ],
       "description": "ElectricBoltIcon 아이콘 - other 카테고리",
-      "usage": "import { ElectricBoltIcon } from 'platform-icon-library';"
+      "usage": "import { ElectricBoltIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ElectricBoltOffIcon": {
       "name": "ElectricBoltOffIcon",
@@ -1394,7 +1394,7 @@
         "general"
       ],
       "description": "ElectricBoltOffIcon 아이콘 - other 카테고리",
-      "usage": "import { ElectricBoltOffIcon } from 'platform-icon-library';"
+      "usage": "import { ElectricBoltOffIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "EndMarker": {
       "name": "EndMarker",
@@ -1408,7 +1408,7 @@
         "marker"
       ],
       "description": "EndMarker 아이콘 - location 카테고리",
-      "usage": "import { EndMarker } from 'platform-icon-library';"
+      "usage": "import { EndMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "EndSelectedMarker": {
       "name": "EndSelectedMarker",
@@ -1422,7 +1422,7 @@
         "marker"
       ],
       "description": "EndSelectedMarker 아이콘 - location 카테고리",
-      "usage": "import { EndSelectedMarker } from 'platform-icon-library';"
+      "usage": "import { EndSelectedMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "Error": {
       "name": "Error",
@@ -1439,7 +1439,7 @@
         "problem"
       ],
       "description": "Error 아이콘 - status 카테고리",
-      "usage": "import { Error } from 'platform-icon-library';"
+      "usage": "import { Error } from '@pittaofficial/pitta-icon-assets';"
     },
     "Eventmap": {
       "name": "Eventmap",
@@ -1453,7 +1453,7 @@
         "marker"
       ],
       "description": "Eventmap 아이콘 - location 카테고리",
-      "usage": "import { Eventmap } from 'platform-icon-library';"
+      "usage": "import { Eventmap } from '@pittaofficial/pitta-icon-assets';"
     },
     "ExpandDownIcon": {
       "name": "ExpandDownIcon",
@@ -1467,7 +1467,7 @@
         "general"
       ],
       "description": "ExpandDownIcon 아이콘 - other 카테고리",
-      "usage": "import { ExpandDownIcon } from 'platform-icon-library';"
+      "usage": "import { ExpandDownIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ExpandDownNewIcon": {
       "name": "ExpandDownNewIcon",
@@ -1481,7 +1481,7 @@
         "general"
       ],
       "description": "ExpandDownNewIcon 아이콘 - other 카테고리",
-      "usage": "import { ExpandDownNewIcon } from 'platform-icon-library';"
+      "usage": "import { ExpandDownNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ExploreIcon": {
       "name": "ExploreIcon",
@@ -1495,7 +1495,7 @@
         "general"
       ],
       "description": "ExploreIcon 아이콘 - other 카테고리",
-      "usage": "import { ExploreIcon } from 'platform-icon-library';"
+      "usage": "import { ExploreIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Facebook": {
       "name": "Facebook",
@@ -1508,7 +1508,7 @@
         "share"
       ],
       "description": "Facebook 아이콘 - social 카테고리",
-      "usage": "import { Facebook } from 'platform-icon-library';"
+      "usage": "import { Facebook } from '@pittaofficial/pitta-icon-assets';"
     },
     "FileDownload": {
       "name": "FileDownload",
@@ -1524,7 +1524,7 @@
         "search"
       ],
       "description": "FileDownload 아이콘 - action 카테고리",
-      "usage": "import { FileDownload } from 'platform-icon-library';"
+      "usage": "import { FileDownload } from '@pittaofficial/pitta-icon-assets';"
     },
     "FilterIcon": {
       "name": "FilterIcon",
@@ -1538,7 +1538,7 @@
         "general"
       ],
       "description": "FilterIcon 아이콘 - other 카테고리",
-      "usage": "import { FilterIcon } from 'platform-icon-library';"
+      "usage": "import { FilterIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FilterModifiedIcon": {
       "name": "FilterModifiedIcon",
@@ -1552,7 +1552,7 @@
         "general"
       ],
       "description": "FilterModifiedIcon 아이콘 - other 카테고리",
-      "usage": "import { FilterModifiedIcon } from 'platform-icon-library';"
+      "usage": "import { FilterModifiedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FirmwareUpdateIcon": {
       "name": "FirmwareUpdateIcon",
@@ -1568,7 +1568,7 @@
         "firmware"
       ],
       "description": "FirmwareUpdateIcon 아이콘 - system 카테고리",
-      "usage": "import { FirmwareUpdateIcon } from 'platform-icon-library';"
+      "usage": "import { FirmwareUpdateIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FlipIcon": {
       "name": "FlipIcon",
@@ -1582,7 +1582,7 @@
         "general"
       ],
       "description": "FlipIcon 아이콘 - other 카테고리",
-      "usage": "import { FlipIcon } from 'platform-icon-library';"
+      "usage": "import { FlipIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ForwardArrow": {
       "name": "ForwardArrow",
@@ -1599,7 +1599,7 @@
         "navigation"
       ],
       "description": "ForwardArrow 아이콘 - navigation 카테고리",
-      "usage": "import { ForwardArrow } from 'platform-icon-library';"
+      "usage": "import { ForwardArrow } from '@pittaofficial/pitta-icon-assets';"
     },
     "FotaDocIcon": {
       "name": "FotaDocIcon",
@@ -1613,7 +1613,7 @@
         "general"
       ],
       "description": "FotaDocIcon 아이콘 - other 카테고리",
-      "usage": "import { FotaDocIcon } from 'platform-icon-library';"
+      "usage": "import { FotaDocIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FotaDocNewIcon": {
       "name": "FotaDocNewIcon",
@@ -1627,7 +1627,7 @@
         "general"
       ],
       "description": "FotaDocNewIcon 아이콘 - other 카테고리",
-      "usage": "import { FotaDocNewIcon } from 'platform-icon-library';"
+      "usage": "import { FotaDocNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FrontCamera": {
       "name": "FrontCamera",
@@ -1642,7 +1642,7 @@
         "camera"
       ],
       "description": "FrontCamera 아이콘 - media 카테고리",
-      "usage": "import { FrontCamera } from 'platform-icon-library';"
+      "usage": "import { FrontCamera } from '@pittaofficial/pitta-icon-assets';"
     },
     "FullScreenExitIcon": {
       "name": "FullScreenExitIcon",
@@ -1656,7 +1656,7 @@
         "general"
       ],
       "description": "FullScreenExitIcon 아이콘 - other 카테고리",
-      "usage": "import { FullScreenExitIcon } from 'platform-icon-library';"
+      "usage": "import { FullScreenExitIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "FullScreenIcon": {
       "name": "FullScreenIcon",
@@ -1670,7 +1670,7 @@
         "general"
       ],
       "description": "FullScreenIcon 아이콘 - other 카테고리",
-      "usage": "import { FullScreenIcon } from 'platform-icon-library';"
+      "usage": "import { FullScreenIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "GPSRouteIcon": {
       "name": "GPSRouteIcon",
@@ -1686,7 +1686,7 @@
         "marker"
       ],
       "description": "GPSRouteIcon 아이콘 - location 카테고리",
-      "usage": "import { GPSRouteIcon } from 'platform-icon-library';"
+      "usage": "import { GPSRouteIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "GPSTracking": {
       "name": "GPSTracking",
@@ -1700,7 +1700,7 @@
         "marker"
       ],
       "description": "GPSTracking 아이콘 - location 카테고리",
-      "usage": "import { GPSTracking } from 'platform-icon-library';"
+      "usage": "import { GPSTracking } from '@pittaofficial/pitta-icon-assets';"
     },
     "Geofence": {
       "name": "Geofence",
@@ -1714,7 +1714,7 @@
         "marker"
       ],
       "description": "Geofence 아이콘 - location 카테고리",
-      "usage": "import { Geofence } from 'platform-icon-library';"
+      "usage": "import { Geofence } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofenceAreaIcon": {
       "name": "GeofenceAreaIcon",
@@ -1730,7 +1730,7 @@
         "marker"
       ],
       "description": "GeofenceAreaIcon 아이콘 - location 카테고리",
-      "usage": "import { GeofenceAreaIcon } from 'platform-icon-library';"
+      "usage": "import { GeofenceAreaIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofenceCircle": {
       "name": "GeofenceCircle",
@@ -1744,7 +1744,7 @@
         "marker"
       ],
       "description": "GeofenceCircle 아이콘 - location 카테고리",
-      "usage": "import { GeofenceCircle } from 'platform-icon-library';"
+      "usage": "import { GeofenceCircle } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofenceEnter": {
       "name": "GeofenceEnter",
@@ -1758,7 +1758,7 @@
         "marker"
       ],
       "description": "GeofenceEnter 아이콘 - location 카테고리",
-      "usage": "import { GeofenceEnter } from 'platform-icon-library';"
+      "usage": "import { GeofenceEnter } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofenceExit": {
       "name": "GeofenceExit",
@@ -1772,7 +1772,7 @@
         "marker"
       ],
       "description": "GeofenceExit 아이콘 - location 카테고리",
-      "usage": "import { GeofenceExit } from 'platform-icon-library';"
+      "usage": "import { GeofenceExit } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofencePass": {
       "name": "GeofencePass",
@@ -1786,7 +1786,7 @@
         "marker"
       ],
       "description": "GeofencePass 아이콘 - location 카테고리",
-      "usage": "import { GeofencePass } from 'platform-icon-library';"
+      "usage": "import { GeofencePass } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofencePolygon": {
       "name": "GeofencePolygon",
@@ -1800,7 +1800,7 @@
         "marker"
       ],
       "description": "GeofencePolygon 아이콘 - location 카테고리",
-      "usage": "import { GeofencePolygon } from 'platform-icon-library';"
+      "usage": "import { GeofencePolygon } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofencePolyline": {
       "name": "GeofencePolyline",
@@ -1814,7 +1814,7 @@
         "marker"
       ],
       "description": "GeofencePolyline 아이콘 - location 카테고리",
-      "usage": "import { GeofencePolyline } from 'platform-icon-library';"
+      "usage": "import { GeofencePolyline } from '@pittaofficial/pitta-icon-assets';"
     },
     "GeofenceRectangle": {
       "name": "GeofenceRectangle",
@@ -1828,7 +1828,7 @@
         "marker"
       ],
       "description": "GeofenceRectangle 아이콘 - location 카테고리",
-      "usage": "import { GeofenceRectangle } from 'platform-icon-library';"
+      "usage": "import { GeofenceRectangle } from '@pittaofficial/pitta-icon-assets';"
     },
     "Google": {
       "name": "Google",
@@ -1841,7 +1841,7 @@
         "share"
       ],
       "description": "Google 아이콘 - social 카테고리",
-      "usage": "import { Google } from 'platform-icon-library';"
+      "usage": "import { Google } from '@pittaofficial/pitta-icon-assets';"
     },
     "GooglePlay": {
       "name": "GooglePlay",
@@ -1856,7 +1856,7 @@
         "camera"
       ],
       "description": "GooglePlay 아이콘 - media 카테고리",
-      "usage": "import { GooglePlay } from 'platform-icon-library';"
+      "usage": "import { GooglePlay } from '@pittaofficial/pitta-icon-assets';"
     },
     "GooglePlayBadge": {
       "name": "GooglePlayBadge",
@@ -1871,7 +1871,7 @@
         "camera"
       ],
       "description": "GooglePlayBadge 아이콘 - media 카테고리",
-      "usage": "import { GooglePlayBadge } from 'platform-icon-library';"
+      "usage": "import { GooglePlayBadge } from '@pittaofficial/pitta-icon-assets';"
     },
     "GpsTrackingRev": {
       "name": "GpsTrackingRev",
@@ -1885,7 +1885,7 @@
         "marker"
       ],
       "description": "GpsTrackingRev 아이콘 - location 카테고리",
-      "usage": "import { GpsTrackingRev } from 'platform-icon-library';"
+      "usage": "import { GpsTrackingRev } from '@pittaofficial/pitta-icon-assets';"
     },
     "GroupSolidIcon": {
       "name": "GroupSolidIcon",
@@ -1899,7 +1899,7 @@
         "general"
       ],
       "description": "GroupSolidIcon 아이콘 - other 카테고리",
-      "usage": "import { GroupSolidIcon } from 'platform-icon-library';"
+      "usage": "import { GroupSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "HelpIcon": {
       "name": "HelpIcon",
@@ -1913,7 +1913,7 @@
         "general"
       ],
       "description": "HelpIcon 아이콘 - other 카테고리",
-      "usage": "import { HelpIcon } from 'platform-icon-library';"
+      "usage": "import { HelpIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "InboxIcon": {
       "name": "InboxIcon",
@@ -1927,7 +1927,7 @@
         "general"
       ],
       "description": "InboxIcon 아이콘 - other 카테고리",
-      "usage": "import { InboxIcon } from 'platform-icon-library';"
+      "usage": "import { InboxIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "InfoSolidIcon": {
       "name": "InfoSolidIcon",
@@ -1944,7 +1944,7 @@
         "loading"
       ],
       "description": "InfoSolidIcon 아이콘 - status 카테고리",
-      "usage": "import { InfoSolidIcon } from 'platform-icon-library';"
+      "usage": "import { InfoSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Inventory": {
       "name": "Inventory",
@@ -1956,7 +1956,7 @@
         "general"
       ],
       "description": "Inventory 아이콘 - other 카테고리",
-      "usage": "import { Inventory } from 'platform-icon-library';"
+      "usage": "import { Inventory } from '@pittaofficial/pitta-icon-assets';"
     },
     "JcbCard": {
       "name": "JcbCard",
@@ -1970,7 +1970,7 @@
         "mastercard"
       ],
       "description": "JcbCard 아이콘 - payment 카테고리",
-      "usage": "import { JcbCard } from 'platform-icon-library';"
+      "usage": "import { JcbCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "KeyboardArrowDownIcon": {
       "name": "KeyboardArrowDownIcon",
@@ -1989,7 +1989,7 @@
         "navigation"
       ],
       "description": "KeyboardArrowDownIcon 아이콘 - navigation 카테고리",
-      "usage": "import { KeyboardArrowDownIcon } from 'platform-icon-library';"
+      "usage": "import { KeyboardArrowDownIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "KeyboardArrowUpIcon": {
       "name": "KeyboardArrowUpIcon",
@@ -2008,7 +2008,7 @@
         "navigation"
       ],
       "description": "KeyboardArrowUpIcon 아이콘 - navigation 카테고리",
-      "usage": "import { KeyboardArrowUpIcon } from 'platform-icon-library';"
+      "usage": "import { KeyboardArrowUpIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "LanguageIcon": {
       "name": "LanguageIcon",
@@ -2022,7 +2022,7 @@
         "general"
       ],
       "description": "LanguageIcon 아이콘 - other 카테고리",
-      "usage": "import { LanguageIcon } from 'platform-icon-library';"
+      "usage": "import { LanguageIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "LayersSolidIcon": {
       "name": "LayersSolidIcon",
@@ -2036,7 +2036,7 @@
         "general"
       ],
       "description": "LayersSolidIcon 아이콘 - other 카테고리",
-      "usage": "import { LayersSolidIcon } from 'platform-icon-library';"
+      "usage": "import { LayersSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ListIcon": {
       "name": "ListIcon",
@@ -2050,7 +2050,7 @@
         "general"
       ],
       "description": "ListIcon 아이콘 - other 카테고리",
-      "usage": "import { ListIcon } from 'platform-icon-library';"
+      "usage": "import { ListIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "LiveViewBlueIcon": {
       "name": "LiveViewBlueIcon",
@@ -2064,7 +2064,7 @@
         "general"
       ],
       "description": "LiveViewBlueIcon 아이콘 - other 카테고리",
-      "usage": "import { LiveViewBlueIcon } from 'platform-icon-library';"
+      "usage": "import { LiveViewBlueIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "LiveviewRev": {
       "name": "LiveviewRev",
@@ -2076,7 +2076,7 @@
         "general"
       ],
       "description": "LiveviewRev 아이콘 - other 카테고리",
-      "usage": "import { LiveviewRev } from 'platform-icon-library';"
+      "usage": "import { LiveviewRev } from '@pittaofficial/pitta-icon-assets';"
     },
     "LockIcon": {
       "name": "LockIcon",
@@ -2090,7 +2090,7 @@
         "general"
       ],
       "description": "LockIcon 아이콘 - other 카테고리",
-      "usage": "import { LockIcon } from 'platform-icon-library';"
+      "usage": "import { LockIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "LogoFull": {
       "name": "LogoFull",
@@ -2102,7 +2102,7 @@
         "general"
       ],
       "description": "LogoFull 아이콘 - other 카테고리",
-      "usage": "import { LogoFull } from 'platform-icon-library';"
+      "usage": "import { LogoFull } from '@pittaofficial/pitta-icon-assets';"
     },
     "LogoFullAdmin": {
       "name": "LogoFullAdmin",
@@ -2117,7 +2117,7 @@
         "logout"
       ],
       "description": "LogoFullAdmin 아이콘 - user 카테고리",
-      "usage": "import { LogoFullAdmin } from 'platform-icon-library';"
+      "usage": "import { LogoFullAdmin } from '@pittaofficial/pitta-icon-assets';"
     },
     "LogoFullDark": {
       "name": "LogoFullDark",
@@ -2129,7 +2129,7 @@
         "general"
       ],
       "description": "LogoFullDark 아이콘 - other 카테고리",
-      "usage": "import { LogoFullDark } from 'platform-icon-library';"
+      "usage": "import { LogoFullDark } from '@pittaofficial/pitta-icon-assets';"
     },
     "LogoOnly": {
       "name": "LogoOnly",
@@ -2141,7 +2141,7 @@
         "general"
       ],
       "description": "LogoOnly 아이콘 - other 카테고리",
-      "usage": "import { LogoOnly } from 'platform-icon-library';"
+      "usage": "import { LogoOnly } from '@pittaofficial/pitta-icon-assets';"
     },
     "LoupeIcon": {
       "name": "LoupeIcon",
@@ -2155,7 +2155,7 @@
         "general"
       ],
       "description": "LoupeIcon 아이콘 - other 카테고리",
-      "usage": "import { LoupeIcon } from 'platform-icon-library';"
+      "usage": "import { LoupeIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MacOS": {
       "name": "MacOS",
@@ -2167,7 +2167,7 @@
         "general"
       ],
       "description": "MacOS 아이콘 - other 카테고리",
-      "usage": "import { MacOS } from 'platform-icon-library';"
+      "usage": "import { MacOS } from '@pittaofficial/pitta-icon-assets';"
     },
     "MapIcon": {
       "name": "MapIcon",
@@ -2182,7 +2182,7 @@
         "marker"
       ],
       "description": "MapIcon 아이콘 - location 카테고리",
-      "usage": "import { MapIcon } from 'platform-icon-library';"
+      "usage": "import { MapIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MapIcon2Icon": {
       "name": "MapIcon2Icon",
@@ -2198,7 +2198,7 @@
         "marker"
       ],
       "description": "MapIcon2Icon 아이콘 - location 카테고리",
-      "usage": "import { MapIcon2Icon } from 'platform-icon-library';"
+      "usage": "import { MapIcon2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MapviewToggle1Icon": {
       "name": "MapviewToggle1Icon",
@@ -2214,7 +2214,7 @@
         "marker"
       ],
       "description": "MapviewToggle1Icon 아이콘 - location 카테고리",
-      "usage": "import { MapviewToggle1Icon } from 'platform-icon-library';"
+      "usage": "import { MapviewToggle1Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MapviewToggle2Icon": {
       "name": "MapviewToggle2Icon",
@@ -2230,7 +2230,7 @@
         "marker"
       ],
       "description": "MapviewToggle2Icon 아이콘 - location 카테고리",
-      "usage": "import { MapviewToggle2Icon } from 'platform-icon-library';"
+      "usage": "import { MapviewToggle2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MasterCard": {
       "name": "MasterCard",
@@ -2244,7 +2244,7 @@
         "mastercard"
       ],
       "description": "MasterCard 아이콘 - payment 카테고리",
-      "usage": "import { MasterCard } from 'platform-icon-library';"
+      "usage": "import { MasterCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "MenuIcon": {
       "name": "MenuIcon",
@@ -2260,7 +2260,7 @@
         "forward"
       ],
       "description": "MenuIcon 아이콘 - navigation 카테고리",
-      "usage": "import { MenuIcon } from 'platform-icon-library';"
+      "usage": "import { MenuIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicNormal": {
       "name": "MicNormal",
@@ -2272,7 +2272,7 @@
         "general"
       ],
       "description": "MicNormal 아이콘 - other 카테고리",
-      "usage": "import { MicNormal } from 'platform-icon-library';"
+      "usage": "import { MicNormal } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicOff": {
       "name": "MicOff",
@@ -2284,7 +2284,7 @@
         "general"
       ],
       "description": "MicOff 아이콘 - other 카테고리",
-      "usage": "import { MicOff } from 'platform-icon-library';"
+      "usage": "import { MicOff } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicOffHover": {
       "name": "MicOffHover",
@@ -2296,7 +2296,7 @@
         "general"
       ],
       "description": "MicOffHover 아이콘 - other 카테고리",
-      "usage": "import { MicOffHover } from 'platform-icon-library';"
+      "usage": "import { MicOffHover } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicOn": {
       "name": "MicOn",
@@ -2310,7 +2310,7 @@
         "general"
       ],
       "description": "MicOn 아이콘 - other 카테고리",
-      "usage": "import { MicOn } from 'platform-icon-library';"
+      "usage": "import { MicOn } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicStrong": {
       "name": "MicStrong",
@@ -2322,7 +2322,7 @@
         "general"
       ],
       "description": "MicStrong 아이콘 - other 카테고리",
-      "usage": "import { MicStrong } from 'platform-icon-library';"
+      "usage": "import { MicStrong } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicWeak": {
       "name": "MicWeak",
@@ -2334,7 +2334,7 @@
         "general"
       ],
       "description": "MicWeak 아이콘 - other 카테고리",
-      "usage": "import { MicWeak } from 'platform-icon-library';"
+      "usage": "import { MicWeak } from '@pittaofficial/pitta-icon-assets';"
     },
     "MicroSD": {
       "name": "MicroSD",
@@ -2348,7 +2348,7 @@
         "microsd"
       ],
       "description": "MicroSD 아이콘 - device 카테고리",
-      "usage": "import { MicroSD } from 'platform-icon-library';"
+      "usage": "import { MicroSD } from '@pittaofficial/pitta-icon-assets';"
     },
     "MobileFotaIcon": {
       "name": "MobileFotaIcon",
@@ -2362,7 +2362,7 @@
         "general"
       ],
       "description": "MobileFotaIcon 아이콘 - other 카테고리",
-      "usage": "import { MobileFotaIcon } from 'platform-icon-library';"
+      "usage": "import { MobileFotaIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MobileFotaNewIcon": {
       "name": "MobileFotaNewIcon",
@@ -2376,7 +2376,7 @@
         "general"
       ],
       "description": "MobileFotaNewIcon 아이콘 - other 카테고리",
-      "usage": "import { MobileFotaNewIcon } from 'platform-icon-library';"
+      "usage": "import { MobileFotaNewIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MoreHorizIcon": {
       "name": "MoreHorizIcon",
@@ -2390,7 +2390,7 @@
         "general"
       ],
       "description": "MoreHorizIcon 아이콘 - other 카테고리",
-      "usage": "import { MoreHorizIcon } from 'platform-icon-library';"
+      "usage": "import { MoreHorizIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MoreVertIcon": {
       "name": "MoreVertIcon",
@@ -2404,7 +2404,7 @@
         "general"
       ],
       "description": "MoreVertIcon 아이콘 - other 카테고리",
-      "usage": "import { MoreVertIcon } from 'platform-icon-library';"
+      "usage": "import { MoreVertIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MotionDetectionIcon": {
       "name": "MotionDetectionIcon",
@@ -2418,7 +2418,7 @@
         "general"
       ],
       "description": "MotionDetectionIcon 아이콘 - other 카테고리",
-      "usage": "import { MotionDetectionIcon } from 'platform-icon-library';"
+      "usage": "import { MotionDetectionIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MotionIcon": {
       "name": "MotionIcon",
@@ -2432,7 +2432,7 @@
         "general"
       ],
       "description": "MotionIcon 아이콘 - other 카테고리",
-      "usage": "import { MotionIcon } from 'platform-icon-library';"
+      "usage": "import { MotionIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "MoveToInBox": {
       "name": "MoveToInBox",
@@ -2444,7 +2444,7 @@
         "general"
       ],
       "description": "MoveToInBox 아이콘 - other 카테고리",
-      "usage": "import { MoveToInBox } from 'platform-icon-library';"
+      "usage": "import { MoveToInBox } from '@pittaofficial/pitta-icon-assets';"
     },
     "NearMeIcon": {
       "name": "NearMeIcon",
@@ -2458,7 +2458,7 @@
         "general"
       ],
       "description": "NearMeIcon 아이콘 - other 카테고리",
-      "usage": "import { NearMeIcon } from 'platform-icon-library';"
+      "usage": "import { NearMeIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "NoDashcamResultIcon": {
       "name": "NoDashcamResultIcon",
@@ -2472,7 +2472,7 @@
         "general"
       ],
       "description": "NoDashcamResultIcon 아이콘 - other 카테고리",
-      "usage": "import { NoDashcamResultIcon } from 'platform-icon-library';"
+      "usage": "import { NoDashcamResultIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "NoItemIcon": {
       "name": "NoItemIcon",
@@ -2486,7 +2486,7 @@
         "general"
       ],
       "description": "NoItemIcon 아이콘 - other 카테고리",
-      "usage": "import { NoItemIcon } from 'platform-icon-library';"
+      "usage": "import { NoItemIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "NotificationPlaybackIcon": {
       "name": "NotificationPlaybackIcon",
@@ -2503,7 +2503,7 @@
         "forward"
       ],
       "description": "NotificationPlaybackIcon 아이콘 - navigation 카테고리",
-      "usage": "import { NotificationPlaybackIcon } from 'platform-icon-library';"
+      "usage": "import { NotificationPlaybackIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "NotificationsIcon": {
       "name": "NotificationsIcon",
@@ -2519,7 +2519,7 @@
         "email"
       ],
       "description": "NotificationsIcon 아이콘 - communication 카테고리",
-      "usage": "import { NotificationsIcon } from 'platform-icon-library';"
+      "usage": "import { NotificationsIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "OfflineIcon": {
       "name": "OfflineIcon",
@@ -2533,7 +2533,7 @@
         "general"
       ],
       "description": "OfflineIcon 아이콘 - other 카테고리",
-      "usage": "import { OfflineIcon } from 'platform-icon-library';"
+      "usage": "import { OfflineIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ParkingMarker": {
       "name": "ParkingMarker",
@@ -2547,7 +2547,7 @@
         "marker"
       ],
       "description": "ParkingMarker 아이콘 - location 카테고리",
-      "usage": "import { ParkingMarker } from 'platform-icon-library';"
+      "usage": "import { ParkingMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "ParkingSelectedMarker": {
       "name": "ParkingSelectedMarker",
@@ -2561,7 +2561,7 @@
         "marker"
       ],
       "description": "ParkingSelectedMarker 아이콘 - location 카테고리",
-      "usage": "import { ParkingSelectedMarker } from 'platform-icon-library';"
+      "usage": "import { ParkingSelectedMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "PersonAdd2Icon": {
       "name": "PersonAdd2Icon",
@@ -2581,7 +2581,7 @@
         "new"
       ],
       "description": "PersonAdd2Icon 아이콘 - user 카테고리",
-      "usage": "import { PersonAdd2Icon } from 'platform-icon-library';"
+      "usage": "import { PersonAdd2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PersonAddIcon": {
       "name": "PersonAddIcon",
@@ -2601,7 +2601,7 @@
         "new"
       ],
       "description": "PersonAddIcon 아이콘 - user 카테고리",
-      "usage": "import { PersonAddIcon } from 'platform-icon-library';"
+      "usage": "import { PersonAddIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PersonSolidIcon": {
       "name": "PersonSolidIcon",
@@ -2618,7 +2618,7 @@
         "logout"
       ],
       "description": "PersonSolidIcon 아이콘 - user 카테고리",
-      "usage": "import { PersonSolidIcon } from 'platform-icon-library';"
+      "usage": "import { PersonSolidIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlaceIcon": {
       "name": "PlaceIcon",
@@ -2632,7 +2632,7 @@
         "general"
       ],
       "description": "PlaceIcon 아이콘 - other 카테고리",
-      "usage": "import { PlaceIcon } from 'platform-icon-library';"
+      "usage": "import { PlaceIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlayArrowIcon": {
       "name": "PlayArrowIcon",
@@ -2651,7 +2651,7 @@
         "navigation"
       ],
       "description": "PlayArrowIcon 아이콘 - navigation 카테고리",
-      "usage": "import { PlayArrowIcon } from 'platform-icon-library';"
+      "usage": "import { PlayArrowIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlaybackMarker": {
       "name": "PlaybackMarker",
@@ -2666,7 +2666,7 @@
         "forward"
       ],
       "description": "PlaybackMarker 아이콘 - navigation 카테고리",
-      "usage": "import { PlaybackMarker } from 'platform-icon-library';"
+      "usage": "import { PlaybackMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlaybackRev": {
       "name": "PlaybackRev",
@@ -2681,7 +2681,7 @@
         "forward"
       ],
       "description": "PlaybackRev 아이콘 - navigation 카테고리",
-      "usage": "import { PlaybackRev } from 'platform-icon-library';"
+      "usage": "import { PlaybackRev } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlaybackSelectedMarker": {
       "name": "PlaybackSelectedMarker",
@@ -2696,7 +2696,7 @@
         "forward"
       ],
       "description": "PlaybackSelectedMarker 아이콘 - navigation 카테고리",
-      "usage": "import { PlaybackSelectedMarker } from 'platform-icon-library';"
+      "usage": "import { PlaybackSelectedMarker } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlayerNextFrame": {
       "name": "PlayerNextFrame",
@@ -2711,7 +2711,7 @@
         "camera"
       ],
       "description": "PlayerNextFrame 아이콘 - media 카테고리",
-      "usage": "import { PlayerNextFrame } from 'platform-icon-library';"
+      "usage": "import { PlayerNextFrame } from '@pittaofficial/pitta-icon-assets';"
     },
     "PlayerPreviousFrame": {
       "name": "PlayerPreviousFrame",
@@ -2726,7 +2726,7 @@
         "camera"
       ],
       "description": "PlayerPreviousFrame 아이콘 - media 카테고리",
-      "usage": "import { PlayerPreviousFrame } from 'platform-icon-library';"
+      "usage": "import { PlayerPreviousFrame } from '@pittaofficial/pitta-icon-assets';"
     },
     "PolyLineIcon": {
       "name": "PolyLineIcon",
@@ -2740,7 +2740,7 @@
         "general"
       ],
       "description": "PolyLineIcon 아이콘 - other 카테고리",
-      "usage": "import { PolyLineIcon } from 'platform-icon-library';"
+      "usage": "import { PolyLineIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Polygon": {
       "name": "Polygon",
@@ -2752,7 +2752,7 @@
         "general"
       ],
       "description": "Polygon 아이콘 - other 카테고리",
-      "usage": "import { Polygon } from 'platform-icon-library';"
+      "usage": "import { Polygon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PopupFailedIcon": {
       "name": "PopupFailedIcon",
@@ -2766,7 +2766,7 @@
         "general"
       ],
       "description": "PopupFailedIcon 아이콘 - other 카테고리",
-      "usage": "import { PopupFailedIcon } from 'platform-icon-library';"
+      "usage": "import { PopupFailedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PopupSuccessIcon": {
       "name": "PopupSuccessIcon",
@@ -2783,7 +2783,7 @@
         "loading"
       ],
       "description": "PopupSuccessIcon 아이콘 - status 카테고리",
-      "usage": "import { PopupSuccessIcon } from 'platform-icon-library';"
+      "usage": "import { PopupSuccessIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PowerSavingIcon": {
       "name": "PowerSavingIcon",
@@ -2797,7 +2797,7 @@
         "general"
       ],
       "description": "PowerSavingIcon 아이콘 - other 카테고리",
-      "usage": "import { PowerSavingIcon } from 'platform-icon-library';"
+      "usage": "import { PowerSavingIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "PushNotificationIcon": {
       "name": "PushNotificationIcon",
@@ -2813,7 +2813,7 @@
         "email"
       ],
       "description": "PushNotificationIcon 아이콘 - communication 카테고리",
-      "usage": "import { PushNotificationIcon } from 'platform-icon-library';"
+      "usage": "import { PushNotificationIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RadioCheckedIcon": {
       "name": "RadioCheckedIcon",
@@ -2832,7 +2832,7 @@
         "complete"
       ],
       "description": "RadioCheckedIcon 아이콘 - status 카테고리",
-      "usage": "import { RadioCheckedIcon } from 'platform-icon-library';"
+      "usage": "import { RadioCheckedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RadioUncheckedIcon": {
       "name": "RadioUncheckedIcon",
@@ -2851,7 +2851,7 @@
         "complete"
       ],
       "description": "RadioUncheckedIcon 아이콘 - status 카테고리",
-      "usage": "import { RadioUncheckedIcon } from 'platform-icon-library';"
+      "usage": "import { RadioUncheckedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RectangleIcon": {
       "name": "RectangleIcon",
@@ -2865,7 +2865,7 @@
         "general"
       ],
       "description": "RectangleIcon 아이콘 - other 카테고리",
-      "usage": "import { RectangleIcon } from 'platform-icon-library';"
+      "usage": "import { RectangleIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RedoIcon": {
       "name": "RedoIcon",
@@ -2879,7 +2879,7 @@
         "general"
       ],
       "description": "RedoIcon 아이콘 - other 카테고리",
-      "usage": "import { RedoIcon } from 'platform-icon-library';"
+      "usage": "import { RedoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RefreshIcon": {
       "name": "RefreshIcon",
@@ -2893,7 +2893,7 @@
         "general"
       ],
       "description": "RefreshIcon 아이콘 - other 카테고리",
-      "usage": "import { RefreshIcon } from 'platform-icon-library';"
+      "usage": "import { RefreshIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Report": {
       "name": "Report",
@@ -2906,7 +2906,7 @@
         "dashboard"
       ],
       "description": "Report 아이콘 - business 카테고리",
-      "usage": "import { Report } from 'platform-icon-library';"
+      "usage": "import { Report } from '@pittaofficial/pitta-icon-assets';"
     },
     "ReportRev": {
       "name": "ReportRev",
@@ -2919,7 +2919,7 @@
         "dashboard"
       ],
       "description": "ReportRev 아이콘 - business 카테고리",
-      "usage": "import { ReportRev } from 'platform-icon-library';"
+      "usage": "import { ReportRev } from '@pittaofficial/pitta-icon-assets';"
     },
     "ResolutionIcon": {
       "name": "ResolutionIcon",
@@ -2933,7 +2933,7 @@
         "general"
       ],
       "description": "ResolutionIcon 아이콘 - other 카테고리",
-      "usage": "import { ResolutionIcon } from 'platform-icon-library';"
+      "usage": "import { ResolutionIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "RotationIcon": {
       "name": "RotationIcon",
@@ -2947,7 +2947,7 @@
         "general"
       ],
       "description": "RotationIcon 아이콘 - other 카테고리",
-      "usage": "import { RotationIcon } from 'platform-icon-library';"
+      "usage": "import { RotationIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ScheduleIcon": {
       "name": "ScheduleIcon",
@@ -2962,7 +2962,7 @@
         "date"
       ],
       "description": "ScheduleIcon 아이콘 - time 카테고리",
-      "usage": "import { ScheduleIcon } from 'platform-icon-library';"
+      "usage": "import { ScheduleIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SdCardResetIcon": {
       "name": "SdCardResetIcon",
@@ -2978,7 +2978,7 @@
         "mastercard"
       ],
       "description": "SdCardResetIcon 아이콘 - payment 카테고리",
-      "usage": "import { SdCardResetIcon } from 'platform-icon-library';"
+      "usage": "import { SdCardResetIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SeamlessPairingIcon": {
       "name": "SeamlessPairingIcon",
@@ -2992,7 +2992,7 @@
         "general"
       ],
       "description": "SeamlessPairingIcon 아이콘 - other 카테고리",
-      "usage": "import { SeamlessPairingIcon } from 'platform-icon-library';"
+      "usage": "import { SeamlessPairingIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SearchDate": {
       "name": "SearchDate",
@@ -3008,7 +3008,7 @@
         "search"
       ],
       "description": "SearchDate 아이콘 - action 카테고리",
-      "usage": "import { SearchDate } from 'platform-icon-library';"
+      "usage": "import { SearchDate } from '@pittaofficial/pitta-icon-assets';"
     },
     "SearchDateIcon": {
       "name": "SearchDateIcon",
@@ -3026,7 +3026,7 @@
         "search"
       ],
       "description": "SearchDateIcon 아이콘 - action 카테고리",
-      "usage": "import { SearchDateIcon } from 'platform-icon-library';"
+      "usage": "import { SearchDateIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SearchIcon": {
       "name": "SearchIcon",
@@ -3043,7 +3043,7 @@
         "download"
       ],
       "description": "SearchIcon 아이콘 - action 카테고리",
-      "usage": "import { SearchIcon } from 'platform-icon-library';"
+      "usage": "import { SearchIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SelectList": {
       "name": "SelectList",
@@ -3055,7 +3055,7 @@
         "general"
       ],
       "description": "SelectList 아이콘 - other 카테고리",
-      "usage": "import { SelectList } from 'platform-icon-library';"
+      "usage": "import { SelectList } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingCloudConnectivityIcon": {
       "name": "SettingCloudConnectivityIcon",
@@ -3069,7 +3069,7 @@
         "general"
       ],
       "description": "SettingCloudConnectivityIcon 아이콘 - other 카테고리",
-      "usage": "import { SettingCloudConnectivityIcon } from 'platform-icon-library';"
+      "usage": "import { SettingCloudConnectivityIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingDMSIcon": {
       "name": "SettingDMSIcon",
@@ -3083,7 +3083,7 @@
         "general"
       ],
       "description": "SettingDMSIcon 아이콘 - other 카테고리",
-      "usage": "import { SettingDMSIcon } from 'platform-icon-library';"
+      "usage": "import { SettingDMSIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingEventTriggersIcon": {
       "name": "SettingEventTriggersIcon",
@@ -3097,7 +3097,7 @@
         "general"
       ],
       "description": "SettingEventTriggersIcon 아이콘 - other 카테고리",
-      "usage": "import { SettingEventTriggersIcon } from 'platform-icon-library';"
+      "usage": "import { SettingEventTriggersIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingPrivacyIcon": {
       "name": "SettingPrivacyIcon",
@@ -3111,7 +3111,7 @@
         "general"
       ],
       "description": "SettingPrivacyIcon 아이콘 - other 카테고리",
-      "usage": "import { SettingPrivacyIcon } from 'platform-icon-library';"
+      "usage": "import { SettingPrivacyIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingRecordingMode": {
       "name": "SettingRecordingMode",
@@ -3123,7 +3123,7 @@
         "general"
       ],
       "description": "SettingRecordingMode 아이콘 - other 카테고리",
-      "usage": "import { SettingRecordingMode } from 'platform-icon-library';"
+      "usage": "import { SettingRecordingMode } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingSystemIcon": {
       "name": "SettingSystemIcon",
@@ -3139,7 +3139,7 @@
         "firmware"
       ],
       "description": "SettingSystemIcon 아이콘 - system 카테고리",
-      "usage": "import { SettingSystemIcon } from 'platform-icon-library';"
+      "usage": "import { SettingSystemIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingVideoIcon": {
       "name": "SettingVideoIcon",
@@ -3156,7 +3156,7 @@
         "camera"
       ],
       "description": "SettingVideoIcon 아이콘 - media 카테고리",
-      "usage": "import { SettingVideoIcon } from 'platform-icon-library';"
+      "usage": "import { SettingVideoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SettingsIcon": {
       "name": "SettingsIcon",
@@ -3171,7 +3171,7 @@
         "firmware"
       ],
       "description": "SettingsIcon 아이콘 - system 카테고리",
-      "usage": "import { SettingsIcon } from 'platform-icon-library';"
+      "usage": "import { SettingsIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SimCard": {
       "name": "SimCard",
@@ -3185,7 +3185,7 @@
         "mastercard"
       ],
       "description": "SimCard 아이콘 - payment 카테고리",
-      "usage": "import { SimCard } from 'platform-icon-library';"
+      "usage": "import { SimCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "SimOutlineIcon": {
       "name": "SimOutlineIcon",
@@ -3201,7 +3201,7 @@
         "microsd"
       ],
       "description": "SimOutlineIcon 아이콘 - device 카테고리",
-      "usage": "import { SimOutlineIcon } from 'platform-icon-library';"
+      "usage": "import { SimOutlineIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "SimSolid2Icon": {
       "name": "SimSolid2Icon",
@@ -3217,7 +3217,7 @@
         "microsd"
       ],
       "description": "SimSolid2Icon 아이콘 - device 카테고리",
-      "usage": "import { SimSolid2Icon } from 'platform-icon-library';"
+      "usage": "import { SimSolid2Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Simcard1G": {
       "name": "Simcard1G",
@@ -3231,7 +3231,7 @@
         "mastercard"
       ],
       "description": "Simcard1G 아이콘 - payment 카테고리",
-      "usage": "import { Simcard1G } from 'platform-icon-library';"
+      "usage": "import { Simcard1G } from '@pittaofficial/pitta-icon-assets';"
     },
     "Simcard3G": {
       "name": "Simcard3G",
@@ -3245,7 +3245,7 @@
         "mastercard"
       ],
       "description": "Simcard3G 아이콘 - payment 카테고리",
-      "usage": "import { Simcard3G } from 'platform-icon-library';"
+      "usage": "import { Simcard3G } from '@pittaofficial/pitta-icon-assets';"
     },
     "Simcard5G": {
       "name": "Simcard5G",
@@ -3259,7 +3259,7 @@
         "mastercard"
       ],
       "description": "Simcard5G 아이콘 - payment 카테고리",
-      "usage": "import { Simcard5G } from 'platform-icon-library';"
+      "usage": "import { Simcard5G } from '@pittaofficial/pitta-icon-assets';"
     },
     "SpeedIcon": {
       "name": "SpeedIcon",
@@ -3273,7 +3273,7 @@
         "general"
       ],
       "description": "SpeedIcon 아이콘 - other 카테고리",
-      "usage": "import { SpeedIcon } from 'platform-icon-library';"
+      "usage": "import { SpeedIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Stat1Icon": {
       "name": "Stat1Icon",
@@ -3287,7 +3287,7 @@
         "general"
       ],
       "description": "Stat1Icon 아이콘 - other 카테고리",
-      "usage": "import { Stat1Icon } from 'platform-icon-library';"
+      "usage": "import { Stat1Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "StatMinus1Icon": {
       "name": "StatMinus1Icon",
@@ -3301,7 +3301,7 @@
         "general"
       ],
       "description": "StatMinus1Icon 아이콘 - other 카테고리",
-      "usage": "import { StatMinus1Icon } from 'platform-icon-library';"
+      "usage": "import { StatMinus1Icon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Success": {
       "name": "Success",
@@ -3316,7 +3316,7 @@
         "loading"
       ],
       "description": "Success 아이콘 - status 카테고리",
-      "usage": "import { Success } from 'platform-icon-library';"
+      "usage": "import { Success } from '@pittaofficial/pitta-icon-assets';"
     },
     "TaskAlt": {
       "name": "TaskAlt",
@@ -3328,7 +3328,7 @@
         "general"
       ],
       "description": "TaskAlt 아이콘 - other 카테고리",
-      "usage": "import { TaskAlt } from 'platform-icon-library';"
+      "usage": "import { TaskAlt } from '@pittaofficial/pitta-icon-assets';"
     },
     "TemperatureColdIcon": {
       "name": "TemperatureColdIcon",
@@ -3343,7 +3343,7 @@
         "cold"
       ],
       "description": "TemperatureColdIcon 아이콘 - weather 카테고리",
-      "usage": "import { TemperatureColdIcon } from 'platform-icon-library';"
+      "usage": "import { TemperatureColdIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "TemperatureGreenIcon": {
       "name": "TemperatureGreenIcon",
@@ -3358,7 +3358,7 @@
         "cold"
       ],
       "description": "TemperatureGreenIcon 아이콘 - weather 카테고리",
-      "usage": "import { TemperatureGreenIcon } from 'platform-icon-library';"
+      "usage": "import { TemperatureGreenIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "TemperatureHotIcon": {
       "name": "TemperatureHotIcon",
@@ -3373,7 +3373,7 @@
         "cold"
       ],
       "description": "TemperatureHotIcon 아이콘 - weather 카테고리",
-      "usage": "import { TemperatureHotIcon } from 'platform-icon-library';"
+      "usage": "import { TemperatureHotIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "ThumbnailBroken": {
       "name": "ThumbnailBroken",
@@ -3385,7 +3385,7 @@
         "general"
       ],
       "description": "ThumbnailBroken 아이콘 - other 카테고리",
-      "usage": "import { ThumbnailBroken } from 'platform-icon-library';"
+      "usage": "import { ThumbnailBroken } from '@pittaofficial/pitta-icon-assets';"
     },
     "ThumbnailDefault": {
       "name": "ThumbnailDefault",
@@ -3397,7 +3397,7 @@
         "general"
       ],
       "description": "ThumbnailDefault 아이콘 - other 카테고리",
-      "usage": "import { ThumbnailDefault } from 'platform-icon-library';"
+      "usage": "import { ThumbnailDefault } from '@pittaofficial/pitta-icon-assets';"
     },
     "ThumbnailPlayback": {
       "name": "ThumbnailPlayback",
@@ -3412,7 +3412,7 @@
         "forward"
       ],
       "description": "ThumbnailPlayback 아이콘 - navigation 카테고리",
-      "usage": "import { ThumbnailPlayback } from 'platform-icon-library';"
+      "usage": "import { ThumbnailPlayback } from '@pittaofficial/pitta-icon-assets';"
     },
     "TimelapseIcon": {
       "name": "TimelapseIcon",
@@ -3426,7 +3426,7 @@
         "general"
       ],
       "description": "TimelapseIcon 아이콘 - other 카테고리",
-      "usage": "import { TimelapseIcon } from 'platform-icon-library';"
+      "usage": "import { TimelapseIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Trash": {
       "name": "Trash",
@@ -3438,7 +3438,7 @@
         "general"
       ],
       "description": "Trash 아이콘 - other 카테고리",
-      "usage": "import { Trash } from 'platform-icon-library';"
+      "usage": "import { Trash } from '@pittaofficial/pitta-icon-assets';"
     },
     "UncategorizedCard": {
       "name": "UncategorizedCard",
@@ -3452,7 +3452,7 @@
         "mastercard"
       ],
       "description": "UncategorizedCard 아이콘 - payment 카테고리",
-      "usage": "import { UncategorizedCard } from 'platform-icon-library';"
+      "usage": "import { UncategorizedCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "UndoIcon": {
       "name": "UndoIcon",
@@ -3466,7 +3466,7 @@
         "general"
       ],
       "description": "UndoIcon 아이콘 - other 카테고리",
-      "usage": "import { UndoIcon } from 'platform-icon-library';"
+      "usage": "import { UndoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "UnionPayCard": {
       "name": "UnionPayCard",
@@ -3480,7 +3480,7 @@
         "mastercard"
       ],
       "description": "UnionPayCard 아이콘 - payment 카테고리",
-      "usage": "import { UnionPayCard } from 'platform-icon-library';"
+      "usage": "import { UnionPayCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "UnpairBatteryIcon": {
       "name": "UnpairBatteryIcon",
@@ -3496,7 +3496,7 @@
         "microsd"
       ],
       "description": "UnpairBatteryIcon 아이콘 - device 카테고리",
-      "usage": "import { UnpairBatteryIcon } from 'platform-icon-library';"
+      "usage": "import { UnpairBatteryIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "Upload": {
       "name": "Upload",
@@ -3512,7 +3512,7 @@
         "search"
       ],
       "description": "Upload 아이콘 - action 카테고리",
-      "usage": "import { Upload } from 'platform-icon-library';"
+      "usage": "import { Upload } from '@pittaofficial/pitta-icon-assets';"
     },
     "UploadFileIcon": {
       "name": "UploadFileIcon",
@@ -3530,7 +3530,7 @@
         "search"
       ],
       "description": "UploadFileIcon 아이콘 - action 카테고리",
-      "usage": "import { UploadFileIcon } from 'platform-icon-library';"
+      "usage": "import { UploadFileIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "UploadVideoIcon": {
       "name": "UploadVideoIcon",
@@ -3548,7 +3548,7 @@
         "search"
       ],
       "description": "UploadVideoIcon 아이콘 - action 카테고리",
-      "usage": "import { UploadVideoIcon } from 'platform-icon-library';"
+      "usage": "import { UploadVideoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VideoIcon": {
       "name": "VideoIcon",
@@ -3564,7 +3564,7 @@
         "camera"
       ],
       "description": "VideoIcon 아이콘 - media 카테고리",
-      "usage": "import { VideoIcon } from 'platform-icon-library';"
+      "usage": "import { VideoIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VideoLengthIcon": {
       "name": "VideoLengthIcon",
@@ -3581,7 +3581,7 @@
         "camera"
       ],
       "description": "VideoLengthIcon 아이콘 - media 카테고리",
-      "usage": "import { VideoLengthIcon } from 'platform-icon-library';"
+      "usage": "import { VideoLengthIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VideoQualityIcon": {
       "name": "VideoQualityIcon",
@@ -3598,7 +3598,7 @@
         "camera"
       ],
       "description": "VideoQualityIcon 아이콘 - media 카테고리",
-      "usage": "import { VideoQualityIcon } from 'platform-icon-library';"
+      "usage": "import { VideoQualityIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VideoSegmentIcon": {
       "name": "VideoSegmentIcon",
@@ -3615,7 +3615,7 @@
         "camera"
       ],
       "description": "VideoSegmentIcon 아이콘 - media 카테고리",
-      "usage": "import { VideoSegmentIcon } from 'platform-icon-library';"
+      "usage": "import { VideoSegmentIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VisaCard": {
       "name": "VisaCard",
@@ -3629,7 +3629,7 @@
         "mastercard"
       ],
       "description": "VisaCard 아이콘 - payment 카테고리",
-      "usage": "import { VisaCard } from 'platform-icon-library';"
+      "usage": "import { VisaCard } from '@pittaofficial/pitta-icon-assets';"
     },
     "VisibilityOffIcon": {
       "name": "VisibilityOffIcon",
@@ -3643,7 +3643,7 @@
         "general"
       ],
       "description": "VisibilityOffIcon 아이콘 - other 카테고리",
-      "usage": "import { VisibilityOffIcon } from 'platform-icon-library';"
+      "usage": "import { VisibilityOffIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "VisibilityOnIcon": {
       "name": "VisibilityOnIcon",
@@ -3657,7 +3657,7 @@
         "general"
       ],
       "description": "VisibilityOnIcon 아이콘 - other 카테고리",
-      "usage": "import { VisibilityOnIcon } from 'platform-icon-library';"
+      "usage": "import { VisibilityOnIcon } from '@pittaofficial/pitta-icon-assets';"
     },
     "WifiConnected": {
       "name": "WifiConnected",
@@ -3673,7 +3673,7 @@
         "microsd"
       ],
       "description": "WifiConnected 아이콘 - device 카테고리",
-      "usage": "import { WifiConnected } from 'platform-icon-library';"
+      "usage": "import { WifiConnected } from '@pittaofficial/pitta-icon-assets';"
     },
     "WifiOn": {
       "name": "WifiOn",
@@ -3687,7 +3687,7 @@
         "microsd"
       ],
       "description": "WifiOn 아이콘 - device 카테고리",
-      "usage": "import { WifiOn } from 'platform-icon-library';"
+      "usage": "import { WifiOn } from '@pittaofficial/pitta-icon-assets';"
     },
     "Windows": {
       "name": "Windows",
@@ -3699,7 +3699,7 @@
         "general"
       ],
       "description": "Windows 아이콘 - other 카테고리",
-      "usage": "import { Windows } from 'platform-icon-library';"
+      "usage": "import { Windows } from '@pittaofficial/pitta-icon-assets';"
     }
   }
 }
