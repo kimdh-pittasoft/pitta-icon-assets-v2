@@ -284,6 +284,28 @@
     <script type="text/babel">
         const { useState, useEffect } = React;
 
+        // 카테고리 표시 이름 변환 함수
+        function getCategoryDisplayName(category) {
+            const displayNames = {
+                'user': '사용자',
+                'action': '액션',
+                'navigation': '네비게이션',
+                'status': '상태',
+                'media': '미디어',
+                'system': '시스템',
+                'location': '위치',
+                'device': '디바이스',
+                'payment': '결제',
+                'communication': '통신',
+                'time': '시간',
+                'social': '소셜',
+                'business': '비즈니스',
+                'weather': '날씨',
+                'other': '기타'
+            };
+            return displayNames[category] || category;
+        }
+
         // 아이콘 컴포넌트
         function IconCard({ iconName, svg, category, onCopy }) {
             const handleClick = () => {
@@ -341,27 +363,6 @@
                     setError(true);
                     setLoading(false);
                 }
-            };
-
-            const getCategoryDisplayName = (category) => {
-                const displayNames = {
-                    'user': '사용자',
-                    'action': '액션',
-                    'navigation': '네비게이션',
-                    'status': '상태',
-                    'media': '미디어',
-                    'system': '시스템',
-                    'location': '위치',
-                    'device': '디바이스',
-                    'payment': '결제',
-                    'communication': '통신',
-                    'time': '시간',
-                    'social': '소셜',
-                    'business': '비즈니스',
-                    'weather': '날씨',
-                    'other': '기타'
-                };
-                return displayNames[category] || category;
             };
 
             const handleCopy = (iconName) => {
