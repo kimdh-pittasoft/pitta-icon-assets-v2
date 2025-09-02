@@ -1,14 +1,17 @@
 import React from "react";
 
-export const MicOnIcon = (props: React.SVGProps<SVGSVGElement> & { volume?: number; htmlColor?: string }) => {
+export type MicOnProps = React.SVGProps<SVGSVGElement> & { volume?: number };
+
+export const MicOn = (props: MicOnProps & { htmlColor?: string }) => {
+  const { volume = 5, ...restProps } = props;
 
   return (
-    <svg viewBox="0 0 24 24" {...props}>
+    <svg viewBox="0 0 24 24" {...restProps}>
       <svg
         version="1.1"
-        width="1em"
+          width="1em"
         height="1em"
-        viewBox="0 0 24 24"
+        viewBox="0 0 14 19"
         fill="none"
       >
         <defs>
@@ -30,7 +33,7 @@ export const MicOnIcon = (props: React.SVGProps<SVGSVGElement> & { volume?: numb
             width="4"
             fill={props.htmlColor || "#EEEEF3"}
             style={{
-              height: Math.min(props.volume || 0, 10),
+              height: Math.min(volume, 10),
               transition: "height 0.1s ease 0.1s",
             }}
           ></rect>
