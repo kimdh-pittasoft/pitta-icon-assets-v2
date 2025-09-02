@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitta Icon Assets - 아이콘 갤러리</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -278,178 +281,159 @@
         </div>
     </div>
 
-    <script>
-        // 실제 메타데이터 파일에서 데이터 로드
-        async function loadMetadata() {
-            try {
-                const [metadataResponse, searchIndexResponse] = await Promise.all([
-                    fetch('./metadata.json'),
-                    fetch('./search-index.json')
-                ]);
-                
-                if (metadataResponse.ok && searchIndexResponse.ok) {
-                    const metadata = await metadataResponse.json();
-                    const searchIndex = await searchIndexResponse.json();
-                    
-                    // 통계 업데이트
-                    document.getElementById('totalIcons').textContent = metadata.totalIcons;
-                    document.getElementById('totalCategories').textContent = Object.keys(metadata.categories).length;
-                    document.getElementById('totalKeywords').textContent = searchIndex.keywords.length;
-                    
-                    return { metadata, searchIndex };
-                }
-            } catch (error) {
-                console.log('메타데이터 로드 실패:', error);
-            }
-            
-            return null;
-        }
+    <script type="text/babel">
+        const { useState, useEffect } = React;
 
-        // 카테고리 표시명 변환
-        function getCategoryDisplayName(category) {
-            const displayNames = {
-                'user': '사용자',
-                'action': '액션',
-                'navigation': '네비게이션',
-                'status': '상태',
-                'media': '미디어',
-                'system': '시스템',
-                'location': '위치',
-                'device': '디바이스',
-                'payment': '결제',
-                'communication': '통신',
-                'time': '시간',
-                'social': '소셜',
-                'business': '비즈니스',
-                'weather': '날씨',
-                'other': '기타'
-            };
-            return displayNames[category] || category;
-        }
-
-        // 아이콘 SVG 생성 함수 - 실제 아이콘과 유사한 형태
-        function generateIconSVG(iconName) {
-            const iconPatterns = {
-                'Add': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="#2ea8e5"/><rect x="11" y="7" width="2" height="10" fill="#0095e0"/><rect x="7" y="11" width="10" height="2" fill="#0095e0"/></svg>`,
-                'Search': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>`,
-                'Account': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>`,
-                'Settings': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>`,
-                'Arrow': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>`,
-                'Check': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`,
-                'Video': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>`,
-                'Cloud': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>`,
-                'Map': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/></svg>`,
-                'Battery': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4z"/></svg>`,
-                'Camera': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12m-3.2 0a3.2 3.2 0 1 1 6.4 0a3.2 3.2 0 1 1 -6.4 0"/><path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>`,
-                'Delete': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>`,
-                'Edit': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>`,
-                'Download': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>`,
-                'Upload': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/></svg>`,
-                'Menu': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>`,
-                'Home': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>`,
-                'Notification': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>`,
-                'Calendar': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>`,
-                'Wifi': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/></svg>`,
-                'Lock': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6z"/></svg>`,
-                'Help': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>`,
-                'Error': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`,
-                'Success': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>`,
-                'Info': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`,
-                'Warning': `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>`
+        // 아이콘 컴포넌트
+        function IconCard({ iconName, svg, category, onCopy }) {
+            const handleClick = () => {
+                onCopy(iconName);
             };
 
-            // 아이콘 이름에서 패턴 매칭
-            for (const [pattern, svg] of Object.entries(iconPatterns)) {
-                if (iconName.includes(pattern)) {
-                    return svg;
-                }
-            }
-
-            // 기본 아이콘 (원형)
-            return `<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="#667eea"/><text x="12" y="16" text-anchor="middle" fill="white" font-size="12" font-weight="bold">${iconName.charAt(0)}</text></svg>`;
+            return (
+                <div className="icon-card" onClick={handleClick}>
+                    <div className="icon-svg" dangerouslySetInnerHTML={{ __html: svg }} />
+                    <div className="icon-name">{iconName}</div>
+                    <div className="icon-category">{getCategoryDisplayName(category)}</div>
+                </div>
+            );
         }
 
-        let currentCategory = 'all';
-        let currentSearch = '';
-        let iconData = {};
+        // 메인 앱 컴포넌트
+        function App() {
+            const [iconData, setIconData] = useState({});
+            const [svgData, setSvgData] = useState({});
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(false);
+            const [currentCategory, setCurrentCategory] = useState('all');
+            const [searchTerm, setSearchTerm] = useState('');
 
-        // DOM 요소들
-        const searchInput = document.getElementById('searchInput');
-        const categoryFilters = document.getElementById('categoryFilters');
-        const iconsGrid = document.getElementById('iconsGrid');
-        const loading = document.getElementById('loading');
-        const noResults = document.getElementById('noResults');
+            useEffect(() => {
+                loadData();
+            }, []);
 
-        // 아이콘 렌더링
-        function renderIcons() {
-            loading.style.display = 'none';
-            
-            const filteredIcons = Object.keys(iconData).filter(iconName => {
-                const icon = iconData[iconName];
+            const loadData = async () => {
+                try {
+                    const [metadataResponse, searchIndexResponse, svgResponse] = await Promise.all([
+                        fetch('./metadata.json'),
+                        fetch('./search-index.json'),
+                        fetch('./icon-svgs.json')
+                    ]);
+                    
+                    if (metadataResponse.ok && searchIndexResponse.ok && svgResponse.ok) {
+                        const metadata = await metadataResponse.json();
+                        const searchIndex = await searchIndexResponse.json();
+                        const svgs = await svgResponse.json();
+                        
+                        // 통계 업데이트
+                        document.getElementById('totalIcons').textContent = metadata.totalIcons;
+                        document.getElementById('totalCategories').textContent = Object.keys(metadata.categories).length;
+                        document.getElementById('totalKeywords').textContent = searchIndex.keywords.length;
+                        
+                        setIconData(metadata.iconInfo);
+                        setSvgData(svgs);
+                        setLoading(false);
+                    } else {
+                        throw new Error('Failed to load data');
+                    }
+                } catch (error) {
+                    console.error('데이터 로드 실패:', error);
+                    setError(true);
+                    setLoading(false);
+                }
+            };
+
+            const getCategoryDisplayName = (category) => {
+                const displayNames = {
+                    'user': '사용자',
+                    'action': '액션',
+                    'navigation': '네비게이션',
+                    'status': '상태',
+                    'media': '미디어',
+                    'system': '시스템',
+                    'location': '위치',
+                    'device': '디바이스',
+                    'payment': '결제',
+                    'communication': '통신',
+                    'time': '시간',
+                    'social': '소셜',
+                    'business': '비즈니스',
+                    'weather': '날씨',
+                    'other': '기타'
+                };
+                return displayNames[category] || category;
+            };
+
+            const handleCopy = (iconName) => {
+                const importText = `import { ${iconName} } from '@pittaofficial/pitta-icon-assets';`;
+                navigator.clipboard.writeText(importText).then(() => {
+                    alert(`${iconName} import 문이 클립보드에 복사되었습니다!`);
+                });
+            };
+
+            const filteredIcons = Object.entries(iconData).filter(([iconName, icon]) => {
                 const matchesCategory = currentCategory === 'all' || icon.category === currentCategory;
-                const matchesSearch = currentSearch === '' || 
-                    iconName.toLowerCase().includes(currentSearch.toLowerCase()) ||
-                    icon.keywords.some(keyword => keyword.toLowerCase().includes(currentSearch.toLowerCase()));
+                const matchesSearch = searchTerm === '' || 
+                    iconName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    icon.keywords.some(keyword => keyword.toLowerCase().includes(searchTerm.toLowerCase()));
                 
                 return matchesCategory && matchesSearch;
             });
 
-            if (filteredIcons.length === 0) {
-                noResults.style.display = 'block';
-                iconsGrid.innerHTML = '';
-                return;
+            if (loading) {
+                return <div className="loading">아이콘을 불러오는 중...</div>;
             }
 
-            noResults.style.display = 'none';
-            iconsGrid.innerHTML = filteredIcons.map(iconName => {
-                const icon = iconData[iconName];
-                return `
-                    <div class="icon-card" onclick="copyImport('${iconName}')">
-                        <div class="icon-svg">${generateIconSVG(iconName)}</div>
-                        <div class="icon-name">${iconName}</div>
-                        <div class="icon-category">${getCategoryDisplayName(icon.category)}</div>
+            if (error) {
+                return <div className="error">아이콘을 불러올 수 없습니다.</div>;
+            }
+
+            return (
+                <div>
+                    <div className="search-section">
+                        <h2>🔍 아이콘 검색</h2>
+                        <input 
+                            type="text" 
+                            className="search-input" 
+                            placeholder="아이콘 이름이나 키워드를 입력하세요..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                        
+                        <div className="category-filters">
+                            {['all', 'user', 'action', 'navigation', 'status', 'media', 'system', 'location', 'device', 'payment', 'communication', 'time', 'social', 'business', 'weather', 'other'].map(category => (
+                                <button 
+                                    key={category}
+                                    className={`category-btn ${currentCategory === category ? 'active' : ''}`}
+                                    onClick={() => setCurrentCategory(category)}
+                                >
+                                    {category === 'all' ? '전체' : getCategoryDisplayName(category)}
+                                </button>
+                            ))}
+                        </div>
+                        
+                        {filteredIcons.length === 0 ? (
+                            <div className="no-results">검색 결과가 없습니다.</div>
+                        ) : (
+                            <div className="icons-grid">
+                                {filteredIcons.map(([iconName, icon]) => (
+                                    <IconCard 
+                                        key={iconName} 
+                                        iconName={iconName} 
+                                        svg={svgData[iconName] || ''}
+                                        category={icon.category} 
+                                        onCopy={handleCopy}
+                                    />
+                                ))}
+                            </div>
+                        )}
                     </div>
-                `;
-            }).join('');
+                </div>
+            );
         }
 
-        // 카테고리 필터 클릭
-        categoryFilters.addEventListener('click', (e) => {
-            if (e.target.classList.contains('category-btn')) {
-                document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
-                e.target.classList.add('active');
-                currentCategory = e.target.dataset.category;
-                renderIcons();
-            }
-        });
-
-        // 검색 입력
-        searchInput.addEventListener('input', (e) => {
-            currentSearch = e.target.value;
-            renderIcons();
-        });
-
-        // import 문 복사
-        function copyImport(iconName) {
-            const importText = `import { ${iconName} } from '@pittaofficial/pitta-icon-assets';`;
-            navigator.clipboard.writeText(importText).then(() => {
-                alert(`${iconName} import 문이 클립보드에 복사되었습니다!`);
-            });
-        }
-
-        // 초기화
-        async function init() {
-            const data = await loadMetadata();
-            if (data) {
-                iconData = data.metadata.iconInfo;
-                renderIcons();
-            } else {
-                loading.textContent = '메타데이터를 불러올 수 없습니다.';
-            }
-        }
-
-        // 페이지 로드 시 초기화
-        init();
+        // React 앱 렌더링
+        ReactDOM.render(<App />, document.getElementById('iconsGrid').parentNode);
     </script>
 </body>
 </html>

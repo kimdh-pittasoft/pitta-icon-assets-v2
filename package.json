@@ -29,9 +29,10 @@
     "url": "git+https://github.com/kimdh-pittasoft/pitta-icon-assets.git"
   },
   "scripts": {
-    "build": "npm run generate-exports && npm run generate-metadata && rollup -c",
+    "build": "npm run generate-exports && npm run generate-metadata && npm run extract-svgs && rollup -c",
     "generate-exports": "node scripts/generate-exports.js",
     "generate-metadata": "node scripts/generate-metadata.js",
+    "extract-svgs": "node scripts/extract-svgs.js",
     "prepare": "npm run build",
     "dev": "rollup -c -w"
   },
