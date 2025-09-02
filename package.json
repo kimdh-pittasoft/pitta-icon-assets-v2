@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pittaofficial/pitta-icon-assets.git"
+    "url": "git+https://github.com/kimdh-pittasoft/pitta-icon-assets.git"
   },
   "scripts": {
     "build": "npm run generate-exports && npm run generate-metadata && rollup -c",

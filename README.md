@@ -147,8 +147,8 @@ function App() {
 
 ## 🔗 링크
 
-- **GitHub**: [https://github.com/pittaofficial/pitta-icon-assets](https://github.com/pittaofficial/pitta-icon-assets)
-- **아이콘 갤러리**: [https://pittaofficial.github.io/pitta-icon-assets/](https://pittaofficial.github.io/pitta-icon-assets/)
+- **GitHub**: [https://github.com/kimdh-pittasoft/pitta-icon-assets](https://github.com/kimdh-pittasoft/pitta-icon-assets)
+- **아이콘 갤러리**: [https://kimdh-pittasoft.github.io/pitta-icon-assets/](https://kimdh-pittasoft.github.io/pitta-icon-assets/)
 - **NPM 패키지**: [https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets](https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets)
 
 ## 🛠️ 개발
