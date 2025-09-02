@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const ICONS_DIR = './icons';
 
@@ -85,7 +85,7 @@ function generateMetadata() {
         category,
         keywords,
         description: `${iconName} 아이콘 - ${category} 카테고리`,
-        usage: `import { ${iconName} } from 'platform-icon-library';`
+        usage: `import { ${iconName} } from '@pittaofficial/pitta-icon-assets';`
       };
     });
 
