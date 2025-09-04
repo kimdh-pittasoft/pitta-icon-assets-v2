@@ -1,25 +1,33 @@
 # Pitta Icon Assets V2
 
-**극도로 최적화된 React SVG 아이콘 컴포넌트 라이브러리**  
-Lucide React와 완벽 호환되도록 설계된 핵심 아이콘만 선별한 경량화 버전입니다.
+> 🎯 **극한 최적화된 React SVG 아이콘 라이브러리**  
+> Lucide React 호환성 중심으로 재설계된 경량 아이콘 패키지
 
-## 🚀 설치
+## 📦 설치
 
 ```bash
 npm install @pittaofficial/pitta-icon-assets-v2
 ```
 
-## 📦 사용법
+## 🚀 사용법
 
-```jsx
-import { DashCam, CloudConfig2Icon, Battery100Icon } from '@pittaofficial/pitta-icon-assets-v2';
+```tsx
+import { 
+  DashCam, 
+  CloudConfig2Icon, 
+  Battery100Icon,
+  GPSLocationAgree,
+  ChipEventFiltered 
+} from '@pittaofficial/pitta-icon-assets-v2';
 
 function App() {
   return (
     <div>
-      <DashCam htmlColor="#0095e0" />
-      <CloudConfig2Icon htmlColor="#333" />
-      <Battery100Icon htmlColor="#28a745" />
+      <DashCam size={24} />
+      <CloudConfig2Icon size={32} />
+      <Battery100Icon size={20} />
+      <GPSLocationAgree size={48} />
+      <ChipEventFiltered size={16} />
     </div>
   );
 }
@@ -27,317 +35,243 @@ function App() {
 
 ## 🎯 최적화 개요
 
-### 📊 최적화 결과
-- **원본**: 249개 아이콘 → **최종**: 94개 아이콘
-- **삭제율**: 62% (155개 아이콘 제거)
-- **패키지 크기**: 266.3 kB → **219.4 kB** (18% 감소)
-- **압축 해제 크기**: 1.2 MB → **993.9 kB** (17% 감소)
+### 📊 **통계**
+- **원본**: 249개 아이콘 → **최종**: 124개 아이콘
+- **삭제율**: 50% (125개 삭제)
+- **패키지 크기**: 266.3 kB → 219.4 kB (18% 감소)
+- **압축 해제 크기**: 1.2 MB → 993.9 kB (17% 감소)
 
-### 🎨 삭제된 아이콘 카테고리
-다음 카테고리의 아이콘들은 Lucide React로 대체 가능하여 제거되었습니다:
+### 🎨 **현재 제공 아이콘 카테고리**
 
-#### 🔄 **기본 UI 요소** (Lucide React 대체)
-- `Visibility`, `VisibilityOff` → `Eye`, `EyeOff`
-- `NearMe` → `MapPin`
-- `ElectricBolt` → `Zap`
-- `TemperatureGreen/Cold/Hot` → `Thermometer`
-- `ChevronUp/Down/Back/Forward` → `ChevronUp/Down/Left/Right`
-- `Filter`, `FilterModified` → `Filter`
-- `AddCircle`, `AddBox` → `PlusCircle`, `Plus`
-- `AllInclusive`, `Infinity` → `Infinity`
-- `Back`, `Close` → `ArrowLeft`, `X`
-- `Call` → `Phone`
-- `Report` → `FileText`
-- `Inventory` → `Package`
-- `Sim` → `SimCard`
-- `RadioChecked/Unchecked` → `Radio`
-- `Timelapse` → `Clock`
-- `DataRange` → `Calendar`
-- `Play` → `Play`
-- `Help`, `Info` → `HelpCircle`, `Info`
-- `Refresh` → `RefreshCw`
-- `Speed` → `Gauge`
-- `Schedule` → `Calendar`
-- `Loupe` → `Search`
-- `PersonAdd` → `UserPlus`
-- `Undo`, `Redo` → `Undo`, `Redo`
-- `Flip` → `RotateCcw`
-- `FullScreen`, `FullScreenExit` → `Maximize`, `Minimize`
-- `AssignmentSolid` → `FileText`
-- `Layers` → `Layers`
-- `PersonSolid` → `User`
-- `GroupSolid` → `Users`
-- `Search` → `Search`
-- `Info` → `Info`
-- `AccountCircle` → `UserCircle`
-- `Inbox` → `Inbox`
+#### 📍 **Location (29개)**
+GPS 관련 아이콘들로 구성된 위치 기반 아이콘들
+- `GPSLocationAgree`, `GPSManual`, `GPSParking`, `GPSJourneyStart`, `GPSJourneyEnd`
+- `GPSDrowsiness`, `GPSInattentiveIcon`, `GPSImpactEvent`, `GPSRecklessDriving`
+- `GPSTracking`, `GPSRouteIcon`, `GPSOverlapedStartEnd`, `GPSParkingEvent`
+- `Geofence`, `GeofenceEnter`, `GeofenceExit`, `GeofencePass`, `GeofenceGPSAlert`
+- `GeofenceAreaIcon`, `DirectionMarker`, `EndMarker`, `EndSelectedMarker`
+- `ParkingMarker`, `ParkingSelectedMarker`, `PlaybackMarker`, `PlaybackSelectedMarker`
+- `PlaceIcon`, `MapIcon`, `MapIcon2Icon`, `MapviewToggle1Icon`, `MapviewToggle2Icon`
 
-#### 📅 **날짜/시간 관련**
-- `Calendar`, `CalendarModified`
-- `CollapseUp/Down`, `ExpandUp/Down`
+#### 🔋 **Device (7개)**
+배터리 및 하드웨어 관련 아이콘들
+- `Battery0Icon`, `Battery25Icon`, `Battery50Icon`, `Battery75Icon`, `Battery100Icon`, `BatteryNoInfoIcon`
+- `UnpairBatteryIcon`
 
-#### 🔧 **관리자 도구**
-- `AdminChart`, `AdminDefaultProfile`, `AdminLogout`, `AdminPWChange`, `AdminPerson`
-- `ElectricBoltOff`, `DashcamPublic`, `AddIcon`
+#### ☁️ **Cloud (8개)**
+클라우드 및 네트워크 관련 아이콘들
+- `Cloud`, `CloudCamera`, `CloudConfig2Icon`, `CloudOff2Icon`, `CloudOutline`
+- `CloudSync`, `CloudUploadIcon`, `ConnectLocallyIcon`
 
-#### 🎥 **미디어 관련**
-- `VideoIcon`, `VideoSegmentIcon`, `ResolutionIcon`, `RotationIcon`
-- `MotionIcon`, `MoreHoriz/VertIcon`
+#### 🎥 **Dashcam (12개)**
+대시캠 관련 아이콘들
+- `DashCam`, `DashCam2Icon`, `Dashcam3Icon`, `DashcamConnectivity`, `DashcamEmptyIcon`
+- `DashcamInvalid`, `DashcamParked`, `DashcamSettings`, `DashcamLiteConnected`, `DashcamLiteDisconnected`
 
-#### 📡 **네트워크/통신**
-- `WifiConnected`, `WifiOn`, `LanguageIcon`
+#### 🎤 **Microphone (5개)**
+마이크 관련 아이콘들
+- `MicNormal`, `MicOff`, `MicOffHover`, `MicOn`, `MicStrong`, `MicWeak`
 
-#### 🗺️ **지도/위치**
-- `GeofenceCircle`, `GeofencePolygon`, `GeofencePolyline`, `GeofenceRectangle`
-- `PolyLineIcon`, `RectangleIcon`
+#### 🔧 **System (5개)**
+시스템 설정 관련 아이콘들
+- `SettingSystemIcon`, `SettingVideoIcon`, `SettingRecordingMode`, `SettingPrivacyIcon`
+- `SettingEventTriggersIcon`, `SettingDMSIcon`, `SettingCloudConnectivityIcon`
 
-#### 💳 **결제/브랜드**
-- `AmexCard`, `AppStoreBadge`, `DinersCard`, `DiscoverCard`
-- `Facebook`, `Google`, `GooglePlay`, `GooglePlayBadge`
-- `JcbCard`, `MasterCard`, `UnionPayCard`, `VisaCard`
-- `MacOS`, `Windows`
+#### 📱 **Mobile (4개)**
+모바일 관련 아이콘들
+- `MobileFotaIcon`, `MobileFotaNewIcon`, `DmsFotaIcon`, `DmsFotaNewIcon`
+- `DmsFrontFotaIcon`, `DmsFrontFotaNewIcon`
 
-#### 🎨 **UI/UX 요소**
-- `CheckIcon`, `CheckCircle`, `CircleIcon`
-- `EditIcon`, `CameraSettings`, `CameraCountHighlight`
-- `CellularLite/Strong/Weak`
-- `LogoOnly`, `BlackvueLogoOutlined`
+#### 🎯 **Chip (9개)**
+이벤트 칩 관련 아이콘들
+- `ChipEventFiltered`, `ChipEventManual`, `ChipEventDmsFiltered`
+- `ChipNormalFiltered`, `ChipNormalDMSEvent`, `ChipNormlEvent`
+- `ChipManualFiltered`, `ChipParkingFiltered`, `ChipParkingNormal`
 
-#### 📁 **파일/업로드**
-- `FileDownload`, `UploadFileIcon`, `UploadVideoIcon`
-- `VideoQualityIcon`, `MoveToInBox`
+#### 📊 **Status (3개)**
+상태 표시 아이콘들
+- `Error`, `PopupSuccessIcon`, `PopupFailedIcon`
 
-#### 🔔 **알림/상태**
-- `NotificationPlaybackIcon`, `NotificationsIcon`, `PlaybackRev`
-- `Stat1Icon`, `StatMinus1Icon`, `Success`, `TaskAlt`
+#### 📡 **Communication (3개)**
+통신 관련 아이콘들
+- `ChatbotIcon`, `PushNotificationIcon`, `OfflineIcon`
 
-## 🎨 현재 제공 아이콘 카테고리
+#### 🎬 **Media (5개)**
+미디어 관련 아이콘들
+- `VideoLengthIcon`, `PlayerNextFrame`, `PlayerPreviousFrame`
+- `ThumbnailBroken`, `ThumbnailDefault`, `ThumbnailPlayback`
 
-### 🚗 **대시캠 & 차량 (핵심)**
-- `DashCam` - 대시캠 메인
-- `Dashcam3Icon` - 대시캠 3세대
-- `DashcamSettings` - 대시캠 설정
-- `DashcamConnectivity` - 대시캠 연결
-- `DashcamEmptyIcon` - 빈 대시캠
-- `DashcamInvalid` - 무효한 대시캠
-- `DashcamLiteConnected` - 라이트 연결됨
-- `DashcamLiteDisconnected` - 라이트 연결 해제
-- `DashcamParked` - 주차된 대시캠
-- `DashcamPublic` - 공개 대시캠
+#### 🧭 **Navigation (4개)**
+네비게이션 관련 아이콘들
+- `MenuIcon`, `ListIcon`, `SelectList`, `AspectRatioIcon`
 
-### 🔋 **배터리 & 전원**
-- `Battery100Icon` - 배터리 100%
-- `Battery75Icon` - 배터리 75%
-- `Battery50Icon` - 배터리 50%
-- `Battery25Icon` - 배터리 25%
-- `Battery0Icon` - 배터리 0%
-- `BatteryNoInfoIcon` - 배터리 정보 없음
-- `PowerSavingIcon` - 절전 모드
-- `UnpairBatteryIcon` - 배터리 페어링 해제
+#### 💳 **Payment (4개)**
+결제 관련 아이콘들
+- `Simcard1G`, `Simcard3G`, `Simcard5G`, `MicroSD`
 
-### ☁️ **클라우드 & 네트워크**
-- `Cloud` - 클라우드 기본
-- `CloudCamera` - 클라우드 카메라
-- `CloudConfig2Icon` - 클라우드 설정 2
-- `CloudOff2Icon` - 클라우드 오프 2
-- `CloudOutline` - 클라우드 아웃라인
-- `CloudSync` - 클라우드 동기화
-- `CloudUploadIcon` - 클라우드 업로드
+#### 👤 **User (2개)**
+사용자 관련 아이콘들
+- `AdminHomeIcon`, `DefaultUserBoxIcon`
 
-### 🎤 **마이크 & 오디오**
-- `MicNormal` - 마이크 일반
-- `MicOn` - 마이크 켜짐
-- `MicOff` - 마이크 꺼짐
-- `MicStrong` - 마이크 강함
-- `MicWeak` - 마이크 약함
-- `MicOffHover` - 마이크 오프 호버
-
-### 📍 **위치 & GPS**
-- `MapIcon` - 지도
-- `MapIcon2Icon` - 지도 2
-- `PlaceIcon` - 장소
-- `Geofence` - 지오펜스 기본
-- `GeofenceAreaIcon` - 지오펜스 영역
-- `GeofenceEnter` - 지오펜스 진입
-- `GeofenceExit` - 지오펜스 출구
-- `GeofencePass` - 지오펜스 통과
-- `GPSTracking` - GPS 추적
-- `GPSRouteIcon` - GPS 경로
-- `GpsTrackingRev` - GPS 추적 역방향
-
-### 🎥 **미디어 & 재생**
-- `VideoLengthIcon` - 비디오 길이
-- `ThumbnailBroken` - 썸네일 깨짐
-- `ThumbnailDefault` - 기본 썸네일
-- `ThumbnailPlayback` - 재생 썸네일
-- `PlayerNextFrame` - 다음 프레임
-- `PlayerPreviousFrame` - 이전 프레임
-- `LiveviewRev` - 라이브뷰 역방향
-
-### ⚙️ **설정 & 시스템**
-- `SettingsIcon` - 설정
-- `SettingSystemIcon` - 시스템 설정
-- `SettingVideoIcon` - 비디오 설정
-- `SettingPrivacyIcon` - 개인정보 설정
-- `SettingRecordingMode` - 녹화 모드 설정
-- `SettingEventTriggersIcon` - 이벤트 트리거 설정
-- `SettingDMSIcon` - DMS 설정
-- `SettingCloudConnectivityIcon` - 클라우드 연결 설정
-- `FirmwareUpdateIcon` - 펌웨어 업데이트
-- `SdCardResetIcon` - SD카드 리셋
-
-### 🔧 **DMS & FOTA**
-- `DMSIcon` - DMS 기본
-- `DmsFotaIcon` - DMS FOTA
-- `DmsFotaNewIcon` - DMS FOTA 신규
-- `DmsFrontFotaIcon` - DMS 프론트 FOTA
-- `DmsFrontFotaNewIcon` - DMS 프론트 FOTA 신규
-- `MobileFotaIcon` - 모바일 FOTA
-- `MobileFotaNewIcon` - 모바일 FOTA 신규
-- `FotaDocIcon` - FOTA 문서
-- `FotaDocNewIcon` - FOTA 문서 신규
-
-### 📱 **통신 & 연결**
-- `ChatbotIcon` - 챗봇
-- `ConnectLocallyIcon` - 로컬 연결
-- `SeamlessPairingIcon` - 원활한 페어링
-- `PushNotificationIcon` - 푸시 알림
-- `Simcard1G` - SIM카드 1G
-- `Simcard3G` - SIM카드 3G
-- `Simcard5G` - SIM카드 5G
-- `SimOutlineIcon` - SIM 아웃라인
-
-### 🎯 **상태 & 피드백**
-- `Error` - 오류
-- `PopupFailedIcon` - 팝업 실패
-- `PopupSuccessIcon` - 팝업 성공
-- `NoDashcamResultIcon` - 대시캠 결과 없음
-- `NoItemIcon` - 항목 없음
-- `OfflineIcon` - 오프라인
-
-### 🏢 **로고 & 브랜드**
-- `LogoFull` - 전체 로고
-- `LogoFullAdmin` - 관리자 전체 로고
-- `LogoFullDark` - 다크 전체 로고
-
-### 📊 **기타**
-- `AspectRatioIcon` - 종횡비
-- `Download` - 다운로드
-- `DownloadedMedia` - 다운로드된 미디어
-- `ListIcon` - 목록
-- `MenuIcon` - 메뉴
-- `MicroSD` - 마이크로SD
-- `SelectList` - 선택 목록
+#### 🔄 **Other (59개)**
+기타 유틸리티 아이콘들
+- `LogoFull`, `LogoFullAdmin`, `LogoFullDark`, `DMSIcon`, `FotaDocIcon`, `FotaDocNewIcon`
+- `FirmwareUpdateIcon`, `MotionDetectionIcon`, `NoDashcamResultIcon`, `PowerSavingIcon`
+- `SdCardResetIcon`, `SeamlessPairingIcon`, `Download`, `DownloadedMedia`
+- `LiveviewRev`, `GpsTrackingRev`, `SettingsIcon`, `Error`, `ListIcon`
 
 ## 🤖 AI 활용 가이드
 
 ### 📋 **메타데이터 활용**
+
 ```javascript
+// metadata.json 활용 예시
 import metadata from '@pittaofficial/pitta-icon-assets-v2/dist/metadata.json';
 
 // 카테고리별 아이콘 검색
-const batteryIcons = metadata.icons.filter(icon => 
-  icon.categories.includes('battery')
-);
+const locationIcons = Object.values(metadata.iconInfo)
+  .filter(icon => icon.category === 'location');
 
 // 키워드로 아이콘 검색
-const searchIcons = metadata.icons.filter(icon => 
-  icon.keywords.some(keyword => 
-    keyword.toLowerCase().includes('battery')
-  )
-);
+const gpsIcons = Object.values(metadata.iconInfo)
+  .filter(icon => icon.keywords.includes('gps'));
+
+// AI 추천 시스템
+function recommendIcon(description) {
+  const keywords = description.toLowerCase().split(' ');
+  return Object.values(metadata.iconInfo)
+    .filter(icon => 
+      keywords.some(keyword => 
+        icon.keywords.some(k => k.includes(keyword))
+      )
+    )
+    .sort((a, b) => b.relevance - a.relevance);
+}
 ```
 
 ### 🔍 **검색 인덱스 활용**
+
 ```javascript
+// search-index.json 활용 예시
 import searchIndex from '@pittaofficial/pitta-icon-assets-v2/dist/search-index.json';
 
-// AI가 사용자 의도에 맞는 아이콘 추천
-const recommendIcon = (userIntent) => {
-  // 검색 인덱스를 활용한 추천 로직
-  return searchIndex.find(icon => 
-    icon.semanticTags.includes(userIntent)
+// 텍스트 기반 아이콘 검색
+function searchIcons(query) {
+  const normalizedQuery = query.toLowerCase();
+  return searchIndex.filter(item => 
+    item.searchableText.includes(normalizedQuery)
   );
-};
+}
+
+// AI 자동 완성
+function autoCompleteIconName(partialName) {
+  return searchIndex
+    .filter(item => item.name.toLowerCase().startsWith(partialName.toLowerCase()))
+    .map(item => item.name);
+}
 ```
 
-### 🎯 **카테고리별 활용**
+### 🎨 **SVG 데이터 활용**
+
 ```javascript
-// 대시캠 관련 기능
-const dashcamIcons = ['DashCam', 'DashcamSettings', 'DashcamConnectivity'];
+// icon-svgs.json 활용 예시
+import iconSvgs from '@pittaofficial/pitta-icon-assets-v2/dist/icon-svgs.json';
 
-// 배터리 상태 표시
-const batteryIcons = ['Battery100Icon', 'Battery75Icon', 'Battery50Icon', 'Battery25Icon', 'Battery0Icon'];
+// SVG 데이터 직접 사용
+function getIconSvg(iconName) {
+  return iconSvgs[iconName]?.svg || null;
+}
 
-// GPS 추적 기능
-const gpsIcons = ['GPSTracking', 'GPSRouteIcon', 'Geofence'];
+// 아이콘 분석
+function analyzeIcon(iconName) {
+  const svgData = iconSvgs[iconName];
+  if (!svgData) return null;
+  
+  return {
+    viewBox: svgData.viewBox,
+    pathCount: (svgData.svg.match(/<path/g) || []).length,
+    complexity: svgData.svg.length,
+    colors: extractColors(svgData.svg)
+  };
+}
 ```
-
-## 🔧 Props
-
-### 기본 Props
-```jsx
-<DashCam 
-  htmlColor="#0095e0"     // 아이콘 색상
-  width={24}              // 너비
-  height={24}             // 높이
-  className="my-icon"      // CSS 클래스
-/>
-```
-
-### 특수 Props (일부 아이콘)
-```jsx
-// 배경색과 아이콘 색상 분리
-<DefaultUserBoxIcon 
-  backgroundColor="#0095e0" 
-  iconColor="#ffffff" 
-/>
-
-// 액센트 색상
-<CheckCircle accentColor="#28a745" />
-```
-
-## 📊 현재 통계
-
-- **총 아이콘 수**: 94개 (빌드 가능)
-- **제외된 아이콘**: 9개 (의존성 문제)
-- **카테고리**: 11개
-- **검색 키워드**: 115개
-
-### 📈 카테고리별 통계
-- **other**: 50개 (53%)
-- **location**: 17개 (18%)
-- **device**: 7개 (7%)
-- **media**: 5개 (5%)
-- **system**: 5개 (5%)
-- **navigation**: 4개 (4%)
-- **payment**: 4개 (4%)
-- **status**: 3개 (3%)
-- **communication**: 3개 (3%)
-- **action**: 3개 (3%)
-- **user**: 2개 (2%)
 
 ## 🚀 마이그레이션 가이드
 
-### V1에서 V2로 업그레이드
+### V1 → V2 업그레이드
+
 ```bash
 # 기존 패키지 제거
 npm uninstall @pittaofficial/pitta-icon-assets
 
-# V2 설치
+# 새 패키지 설치
 npm install @pittaofficial/pitta-icon-assets-v2
 ```
 
-### 삭제된 아이콘 대체
-```jsx
-// V1 (삭제됨)
-import { VisibilityIcon } from '@pittaofficial/pitta-icon-assets';
+### 🔄 **코드 변경사항**
 
-// V2 (Lucide React 사용 권장)
-import { Eye } from 'lucide-react';
+```tsx
+// V1 (기존)
+import { Visibility, AddCircle, Search } from '@pittaofficial/pitta-icon-assets';
 
-// 또는 유사한 아이콘 사용
-import { VisibilityOnIcon } from '@pittaofficial/pitta-icon-assets-v2';
+// V2 (새로운 패키지)
+import { 
+  // 삭제된 아이콘들은 Lucide React로 대체
+  Eye, // Visibility 대신
+  PlusCircle, // AddCircle 대신
+  Search // Lucide React의 Search 사용
+} from 'lucide-react';
+
+// 유지되는 아이콘들
+import { 
+  DashCam, 
+  CloudConfig2Icon, 
+  Battery100Icon 
+} from '@pittaofficial/pitta-icon-assets-v2';
+```
+
+### 📋 **삭제된 아이콘 대체 가이드**
+
+| 삭제된 아이콘 | Lucide React 대체 | 용도 |
+|--------------|------------------|------|
+| `Visibility` | `Eye` | 표시/숨김 |
+| `AddCircle` | `PlusCircle` | 추가 |
+| `Search` | `Search` | 검색 |
+| `Filter` | `Filter` | 필터 |
+| `Calendar` | `Calendar` | 달력 |
+| `ChevronUp` | `ChevronUp` | 위 화살표 |
+| `ChevronDown` | `ChevronDown` | 아래 화살표 |
+| `Check` | `Check` | 확인 |
+| `Info` | `Info` | 정보 |
+| `Help` | `HelpCircle` | 도움말 |
+
+## 📊 현재 통계
+
+- **총 아이콘 수**: 124개
+- **카테고리 수**: 11개
+- **검색 키워드**: 116개
+- **패키지 크기**: 219.4 kB
+- **압축 해제 크기**: 993.9 kB
+
+### 📁 **파일 구조**
+
+```
+pitta-icon-assets-v2/
+├── icons/                    # 아이콘 소스 파일들 (124개)
+│   ├── index.ts             # 메인 export 파일
+│   ├── GPSLocationAgree.tsx # GPS 위치 동의 아이콘
+│   ├── DashCam.tsx          # 대시캠 아이콘
+│   └── ...                  # 기타 아이콘들
+├── dist/                    # 빌드된 파일들
+│   ├── index.js             # CommonJS 번들
+│   ├── index.esm.js         # ES Module 번들
+│   ├── index.d.ts           # TypeScript 선언
+│   ├── metadata.json        # 아이콘 메타데이터
+│   ├── search-index.json    # 검색 인덱스
+│   └── icon-svgs.json       # SVG 데이터
+├── scripts/                 # 빌드 스크립트
+├── package.json             # 패키지 설정
+└── README.md               # 문서
 ```
 
 ## 🛠️ 개발
@@ -346,52 +280,44 @@ import { VisibilityOnIcon } from '@pittaofficial/pitta-icon-assets-v2';
 # 의존성 설치
 npm install
 
-# 아이콘 export 생성
-npm run generate-exports
+# 개발 빌드
+npm run build
 
 # 메타데이터 생성
 npm run generate-metadata
 
+# 검색 인덱스 생성
+npm run generate-search-index
+
 # SVG 추출
 npm run extract-svgs
-
-# 빌드
-npm run build
-
-# 배포
-npm publish
 ```
 
-## 📁 파일 구조
+## 📋 Props
 
-```
-dist/
-├── index.js              # CommonJS 번들
-├── index.esm.js          # ESM 번들
-├── index.d.ts            # TypeScript 타입 정의
-├── metadata.json         # AI 친화적 메타데이터
-├── search-index.json     # 검색 인덱스
-└── icon-svgs.json       # SVG 데이터
+모든 아이콘은 다음 props를 지원합니다:
+
+```tsx
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  size?: number;           // 아이콘 크기 (기본값: 24)
+  color?: string;          // 아이콘 색상
+  className?: string;      // CSS 클래스
+  style?: React.CSSProperties; // 인라인 스타일
+}
 ```
 
 ## 🔗 링크
 
-- **NPM 패키지**: [https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets-v2](https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets-v2)
-- **GitHub**: [https://github.com/kimdh-pittasoft/pitta-icon-assets-v2](https://github.com/kimdh-pittasoft/pitta-icon-assets-v2)
+- **npm**: [@pittaofficial/pitta-icon-assets-v2](https://www.npmjs.com/package/@pittaofficial/pitta-icon-assets-v2)
+- **GitHub**: [pitta-icon-assets-v2](https://github.com/kimdh-pittasoft/pitta-icon-assets-v2)
+- **Lucide React**: [lucide-react](https://lucide.dev/)
 
-## 📄 라이선스
+## 🎯 핵심 메시지
 
-MIT License
+> **"필요한 것만, 최적화된 것만"**  
+> Pitta Icon Assets V2는 Lucide React와의 호환성을 최우선으로 하여 중복되는 아이콘들을 제거하고,  
+> Pitta만의 고유한 아이콘들만을 제공하는 경량화된 라이브러리입니다.
 
 ---
 
-## 🎯 **핵심 메시지**
-
-**Pitta Icon Assets V2**는 Lucide React와의 완벽한 호환성을 위해 **극도로 최적화**된 아이콘 라이브러리입니다. 
-
-- ✅ **62% 경량화**: 249개 → 94개 아이콘
-- ✅ **Lucide React 호환**: 중복 아이콘 제거
-- ✅ **AI 친화적**: 메타데이터와 검색 인덱스 제공
-- ✅ **핵심 기능 집중**: 대시캠, 배터리, GPS 등 핵심 아이콘만 유지
-
-**삭제된 아이콘들은 모두 Lucide React에서 제공하는 동일한 기능의 아이콘으로 대체 가능합니다.**
+**Made with ❤️ by Pitta Soft**
