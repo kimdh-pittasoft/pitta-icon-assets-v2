@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const GpsDrowsiness = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string, backgroundColor?: string, iconColor?: string }) => {
+export const GpsOverlapedStartEnd = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string, backgroundColor?: string, iconColor?: string }) => {
   return (
     <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" viewBox="0 0 45.35 45.35" {...props}>'
     
