@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const ChipNormlEvent = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string; iconColor?: string; }) => {
+export const ChipEventDmsFiltered = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string; iconColor?: string; }) => {
   return (
     <svg width="56" height="26" viewBox="0 0 56 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="55" height="25" rx="12.5" fill="white"/>

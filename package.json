@@ -45,12 +45,16 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.0",
     "rollup": "^3.0.0",
-    "typescript": "^5.0.0",
-    "tslib": "^2.6.0"
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
   }
 }

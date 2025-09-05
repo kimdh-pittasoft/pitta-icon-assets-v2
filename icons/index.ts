@@ -1,5 +1,5 @@
-export * from "./GPSLocationAgree";
 export * from "./AdminHomeIcon";
+export * from "./AllInclusiveIcon";
 export * from "./AspectRatioIcon";
 export * from "./Battery0Icon";
 export * from "./Battery100Icon";

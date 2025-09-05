@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const GpsParkingEvent = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string, backgroundColor?: string, iconColor?: string, accentColor?: string }) => {
+export const GpsRecklessDriving = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string, backgroundColor?: string, iconColor?: string, accentColor?: string }) => {
   return (
     <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" viewBox="0 0 45.35 45.35" {...props}>
 
