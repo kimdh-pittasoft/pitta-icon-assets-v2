@@ -26,9 +26,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimdh-pittasoft/pitta-icon-assets.git"
+    "url": "git+https://github.com/kimdh-pittasoft/pitta-icon-assets-v2.git"
   },
-  "homepage": "https://web-modules-alpha.blackvuecloud.com/storybook/index.html",
+  "homepage": "https://web-modules-alpha.blackvuecloud.com/storybook/index.html?path=/docs/design-system-graphics-icons-v2--docs",
   "scripts": {
     "build": "npm run generate-exports && npm run generate-metadata && npm run extract-svgs && rollup -c",
     "generate-exports": "node scripts/generate-exports.js",
