@@ -85,7 +85,7 @@ function generateMetadata() {
         category,
         keywords,
         description: `${iconName} 아이콘 - ${category} 카테고리`,
-        usage: `import { ${iconName} } from '@pittaofficial/pitta-icon-assets';`
+        usage: `import { ${iconName} } from '@pittaofficial/pitta-icon-assets-v2';`
       };
     });
 
