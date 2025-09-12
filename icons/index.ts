@@ -77,7 +77,6 @@ export * from "./MenuIcon";
 export * from "./MicNormal";
 export * from "./MicOff";
 export * from "./MicOffHover";
-export * from "./MicOn";
 export * from "./MicStrong";
 export * from "./MicWeak";
 export * from "./MicroSD";
