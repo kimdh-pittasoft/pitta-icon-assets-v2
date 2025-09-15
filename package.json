@@ -1,6 +1,6 @@
 {
   "name": "@pittaofficial/pitta-icon-assets-v2",
-  "version": "0.1.28",
+  "version": "0.1.29",
   "description": "Pitta Icon Assets V2 - React SVG Icon Components library. Optimized for Lucide React compatibility with reduced dependency on custom icons.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
