@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const GpsImpactEvent = (props: React.SVGProps<SVGSVGElement> & { htmlColor?: string, backgroundColor?: string, iconColor?: string }) => {
   return (
-    <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" viewBox="0 0 45.35 45.35" {...props}>
+    <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" viewBox="0 0 48 48" {...props}>
       <defs>
         <filter id="shadow-impact" x="-50%" y="-50%" width="200%" height="200%">
           <feDropShadow dx="1" dy="2" stdDeviation="2" floodColor="rgba(0,0,0,0.3)"/>
