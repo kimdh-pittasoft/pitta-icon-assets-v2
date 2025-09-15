@@ -12,12 +12,12 @@
       }
 
       .st2 {
-        fill: #13131c;
+        fill: #ff00eaff;
         fill-rule: evenodd;
       }
 
       .st3 {
-        fill: #040404ff;
+        fill: #ffffffff;
       }
 
       .st4 {
